@@ -1,0 +1,56 @@
+2023-10-25 13:40:00.891 [info] Log level: Info
+2023-10-25 13:40:00.891 [info] Validating found git in: "git"
+2023-10-25 13:40:00.891 [info] Using git "2.34.1" from "git"
+2023-10-25 13:40:00.891 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-25 13:40:00.891 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 13:40:00.891 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-25 13:40:00.901 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-10-25 13:40:00.908 [info] Open repository: /home/erp/frappe-bench/apps/hrms
+2023-10-25 13:40:00.926 [info] > git rev-parse --show-toplevel [8ms]
+2023-10-25 13:40:00.926 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 13:40:00.926 [info] > git config --get commit.template [11ms]
+2023-10-25 13:40:00.935 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-25 13:40:00.935 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 13:40:00.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/version-14 refs/remotes/version-14 [5ms]
+2023-10-25 13:40:00.943 [info] > git rev-parse --show-toplevel [5ms]
+2023-10-25 13:40:00.943 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 13:40:00.948 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-25 13:40:00.948 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 13:40:00.953 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-25 13:40:00.953 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 13:40:00.957 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-25 13:40:00.957 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 13:40:00.963 [info] > git status -z -uall [20ms]
+2023-10-25 13:40:00.973 [info] > git config --get commit.template [2ms]
+2023-10-25 13:40:00.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/version-14 refs/remotes/version-14 [10ms]
+2023-10-25 13:40:01.011 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-25 13:40:01.011 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 13:40:01.013 [info] > git status -z -uall [22ms]
+2023-10-25 13:40:01.155 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-25 13:40:01.155 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-25 13:40:01.329 [info] > git show --textconv :hrms/hr/doctype/attendance/attendance.py [4ms]
+2023-10-25 13:40:01.330 [info] > git ls-files --stage -- /home/erp/frappe-bench/apps/hrms/hrms/hr/doctype/attendance/attendance.py [1ms]
+2023-10-25 13:40:01.336 [info] > git cat-file -s 072b4a7d049b6c14f9c860e27e8424706eb4418f [1ms]
+2023-10-25 13:40:01.424 [info] > git check-ignore -v -z --stdin [2ms]
+2023-10-25 13:40:06.826 [info] > git check-ignore -v -z --stdin [1ms]
+2023-10-25 13:40:07.782 [info] > git check-ignore -v -z --stdin [2ms]
+2023-10-25 13:41:54.569 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-25 13:41:54.575 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-10-25 13:41:54.579 [info] Open repository: /home/erp/frappe-bench/apps/education
+2023-10-25 13:41:54.587 [info] > git config --get commit.template [5ms]
+2023-10-25 13:41:54.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [4ms]
+2023-10-25 13:41:54.633 [info] > git status -z -uall [40ms]
+2023-10-25 13:41:54.648 [info] > git config --get commit.template [3ms]
+2023-10-25 13:41:54.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [18ms]
+2023-10-25 13:41:54.688 [info] > git status -z -uall [12ms]
+2023-10-25 13:41:54.999 [info] > git show --textconv :education/education/doctype/student_applicant/student_applicant.json [3ms]
+2023-10-25 13:41:55.000 [info] > git ls-files --stage -- /home/erp/frappe-bench/apps/education/education/education/doctype/student_applicant/student_applicant.json [1ms]
+2023-10-25 13:41:55.004 [info] > git cat-file -s 8a7a787aa09696167080bd9f820ff1f3359451b1 [1ms]
+2023-10-25 13:41:55.154 [info] > git check-ignore -v -z --stdin [3ms]
+2023-10-25 13:41:55.156 [info] > git check-ignore -v -z --stdin [2ms]
+2023-10-25 13:42:14.874 [info] > git config --get commit.template [4ms]
+2023-10-25 13:42:14.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [2ms]
+2023-10-25 13:42:14.880 [info] > git status -z -uall [2ms]
+2023-10-25 14:26:26.725 [info] > git config --get commit.template [5ms]
+2023-10-25 14:26:26.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [2ms]
+2023-10-25 14:26:26.731 [info] > git status -z -uall [3ms]

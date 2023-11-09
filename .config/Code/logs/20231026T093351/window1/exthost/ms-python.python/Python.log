@@ -1,0 +1,17 @@
+2023-10-26 09:33:53.231 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-10-26 09:33:53.231 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-10-26 09:33:53.231 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2023-10-26 09:33:53.231 [info] Experiment 'pythonTestAdapter' is active
+2023-10-26 09:33:53.262 [info] Test server listening.
+2023-10-26 09:33:53.288 [info] Python interpreter path: ./env/bin/python
+2023-10-26 09:33:54.188 [info] > . ./env/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2023.18.0/pythonFiles/printEnvVariables.py
+2023-10-26 09:33:54.188 [info] shell: bash
+2023-10-26 09:33:54.232 [info] > /bin/python3 ~/.vscode/extensions/ms-python.python-2023.18.0/pythonFiles/printEnvVariables.py
+2023-10-26 09:33:54.232 [info] shell: bash
+2023-10-26 09:33:55.139 [info] Starting Pylance language server.
+2023-10-26 09:38:56.718 [info] Discover tests for workspace name: frappe-bench - uri: /home/erp/frappe-bench/apps/hrms/hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py
+2023-10-26 09:47:43.660 [info] Discover tests for workspace name: frappe-bench - uri: /home/erp/frappe-bench/apps/education/education/education/doctype/fees/fees.py
+2023-10-26 10:01:43.927 [info] Discover tests for workspace name: frappe-bench - uri: /home/erp/frappe-bench/apps/hrms/hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py
+2023-10-26 10:04:58.135 [info] Discover tests for workspace name: frappe-bench - uri: /home/erp/frappe-bench/apps/hrms/hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py
+2023-10-26 10:05:33.563 [info] Discover tests for workspace name: frappe-bench - uri: /home/erp/frappe-bench/apps/hrms/hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py
+2023-10-26 10:14:21.890 [info] Discover tests for workspace name: frappe-bench - uri: /home/erp/frappe-bench/apps/hrms/hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py

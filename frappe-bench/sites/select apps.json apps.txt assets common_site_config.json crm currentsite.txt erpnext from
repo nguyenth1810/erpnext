@@ -1,0 +1,25 @@
++-------------------+---------------+------+-----+-------------+-------+
+| Field             | Type          | Null | Key | Default     | Extra |
++-------------------+---------------+------+-----+-------------+-------+
+| name              | varchar(140)  | NO   | PRI | NULL        |       |
+| creation          | datetime(6)   | YES  |     | NULL        |       |
+| modified          | datetime(6)   | YES  | MUL | NULL        |       |
+| modified_by       | varchar(140)  | YES  |     | NULL        |       |
+| owner             | varchar(140)  | YES  |     | NULL        |       |
+| docstatus         | int(1)        | NO   |     | 0           |       |
+| idx               | int(8)        | NO   |     | 0           |       |
+| fees_category     | varchar(140)  | YES  |     | NULL        |       |
+| description       | text          | YES  |     | NULL        |       |
+| amount            | decimal(21,9) | NO   |     | 0.000000000 |       |
+| parent            | varchar(140)  | YES  | MUL | NULL        |       |
+| parentfield       | varchar(140)  | YES  |     | NULL        |       |
+| parenttype        | varchar(140)  | YES  |     | NULL        |       |
+| đơn_giá           | decimal(21,9) | NO   |     | 0.000000000 |       |
+| quantity          | int(11)       | NO   |     | 0           |       |
+| discount_category | varchar(140)  | YES  |     | NULL        |       |
+| _user_tags        | text          | YES  |     | NULL        |       |
+| _comments         | text          | YES  |     | NULL        |       |
+| _assign           | text          | YES  |     | NULL        |       |
+| _liked_by         | text          | YES  |     | NULL        |       |
+| percent           | decimal(21,9) | NO   |     | 0.000000000 |       |
++-------------------+---------------+------+-----+-------------+-------+

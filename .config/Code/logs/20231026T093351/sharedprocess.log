@@ -1,0 +1,16 @@
+2023-10-27 09:34:00.080 [info] Getting Manifest... ms-python.vscode-pylance
+2023-10-27 09:34:00.241 [info] Installing extension: ms-python.vscode-pylance
+2023-10-27 09:34:01.032 [info] Getting Manifest... ms-python.python
+2023-10-27 09:34:04.992 [info] Extension signature is verified: ms-python.vscode-pylance
+2023-10-27 09:34:11.171 [info] Extracted extension to file:///home/erp/.vscode/extensions/ms-python.vscode-pylance-2023.10.50: ms-python.vscode-pylance
+2023-10-27 09:34:11.188 [info] Renamed to /home/erp/.vscode/extensions/ms-python.vscode-pylance-2023.10.50
+2023-10-27 09:34:11.190 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-10-27 09:34:11.200 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-10-27 09:34:11.204 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.10.40
+2023-10-27 09:34:11.278 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/erp/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/erp/.vscode/extensions/extensions.json.vsctmp'
+    at s.create (/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)

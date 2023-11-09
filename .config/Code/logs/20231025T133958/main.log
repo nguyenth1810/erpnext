@@ -1,0 +1,7 @@
+2023-10-25 13:39:58.832 [info] update#setState idle
+2023-10-25 13:40:28.835 [info] update#setState checking for updates
+2023-10-25 13:40:28.837 [info] update#setState idle
+2023-10-25 14:40:28.838 [info] update#setState checking for updates
+2023-10-25 14:40:28.840 [info] update#setState idle
+2023-10-25 14:52:23.991 [info] Extension host with pid 317865 exited with code: 0, signal: unknown.
+2023-10-25 14:52:23.996 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 317887]: crashed with code 15 and reason 'killed'

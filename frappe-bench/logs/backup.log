@@ -1,0 +1,2135 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230829_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-08-29 18:00:03.550479
+Config  : ./erpnext/private/backups/20230829_180002-erpnext-site_config_backup.json 94.0B
+Database: ./erpnext/private/backups/20230829_180002-erpnext-database.sql.gz         1.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230830_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-08-30 12:00:03.385046
+Config  : ./erpnext/private/backups/20230830_120002-erpnext-site_config_backup.json 94.0B
+Database: ./erpnext/private/backups/20230830_120002-erpnext-database.sql.gz         1.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230830_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-08-30 18:00:03.112981
+Config  : ./erpnext/private/backups/20230830_180001-erpnext-site_config_backup.json 94.0B
+Database: ./erpnext/private/backups/20230830_180001-erpnext-database.sql.gz         1.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230831_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-08-31 12:00:03.960835
+Config  : ./erpnext/private/backups/20230831_120002-erpnext-site_config_backup.json 94.0B
+Database: ./erpnext/private/backups/20230831_120002-erpnext-database.sql.gz         1.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230905_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-05 12:00:03.241524
+Config  : ./erpnext/private/backups/20230905_120002-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230905_120002-erpnext-database.sql.gz         1.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230905_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-05 18:00:03.043874
+Config  : ./erpnext/private/backups/20230905_180001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230905_180001-erpnext-database.sql.gz         1.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230906_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-06 12:00:02.877364
+Config  : ./erpnext/private/backups/20230906_120001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230906_120001-erpnext-database.sql.gz         1.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230906_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-06 18:00:03.790696
+Config  : ./erpnext/private/backups/20230906_180002-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230906_180002-erpnext-database.sql.gz         1.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230907_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-07 12:00:03.529561
+Config  : ./erpnext/private/backups/20230907_120002-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230907_120002-erpnext-database.sql.gz         1.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230907_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-07 18:00:03.854353
+Config  : ./erpnext/private/backups/20230907_180002-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230907_180002-erpnext-database.sql.gz         1.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230908_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-08 00:00:03.049775
+Config  : ./erpnext/private/backups/20230908_000001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230908_000001-erpnext-database.sql.gz         1.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230908_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-08 06:00:03.094435
+Config  : ./erpnext/private/backups/20230908_060001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230908_060001-erpnext-database.sql.gz         1.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230908_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-08 12:00:03.185885
+Config  : ./erpnext/private/backups/20230908_120001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230908_120001-erpnext-database.sql.gz         1.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230908_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-08 18:00:03.073832
+Config  : ./erpnext/private/backups/20230908_180001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230908_180001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230909_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-09 00:00:03.135159
+Config  : ./erpnext/private/backups/20230909_000001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230909_000001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230909_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-09 06:00:03.118244
+Config  : ./erpnext/private/backups/20230909_060001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230909_060001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230909_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-09 12:00:03.140407
+Config  : ./erpnext/private/backups/20230909_120001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230909_120001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230909_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-09 18:00:03.092044
+Config  : ./erpnext/private/backups/20230909_180001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230909_180001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230910_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-10 00:00:03.208662
+Config  : ./erpnext/private/backups/20230910_000001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230910_000001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230910_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-10 06:00:03.070038
+Config  : ./erpnext/private/backups/20230910_060001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230910_060001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230910_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-10 12:00:03.055369
+Config  : ./erpnext/private/backups/20230910_120001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230910_120001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230910_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-10 18:00:03.172987
+Config  : ./erpnext/private/backups/20230910_180001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230910_180001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230911_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-11 00:00:03.292006
+Config  : ./erpnext/private/backups/20230911_000001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230911_000001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230911_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-11 06:00:03.356137
+Config  : ./erpnext/private/backups/20230911_060001-erpnext-site_config_backup.json 161.0B
+Database: ./erpnext/private/backups/20230911_060001-erpnext-database.sql.gz         1.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230911_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-11 12:00:03.686775
+Config  : ./erpnext/private/backups/20230911_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230911_120001-erpnext-database.sql.gz         2.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230911_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-11 18:00:03.736191
+Config  : ./erpnext/private/backups/20230911_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230911_180002-erpnext-database.sql.gz         2.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230912_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-12 00:00:03.715470
+Config  : ./erpnext/private/backups/20230912_000002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230912_000002-erpnext-database.sql.gz         2.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230912_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-12 06:00:03.811289
+Config  : ./erpnext/private/backups/20230912_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230912_060002-erpnext-database.sql.gz         2.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230912_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-12 12:00:03.800412
+Config  : ./erpnext/private/backups/20230912_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230912_120002-erpnext-database.sql.gz         2.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230912_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-12 18:00:04.004573
+Config  : ./erpnext/private/backups/20230912_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230912_180002-erpnext-database.sql.gz         2.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230913_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-13 00:00:03.036136
+Config  : ./erpnext/private/backups/20230913_000001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230913_000001-erpnext-database.sql.gz         2.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230913_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-13 06:00:03.142183
+Config  : ./erpnext/private/backups/20230913_060001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230913_060001-erpnext-database.sql.gz         2.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230913_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-13 12:00:03.310667
+Config  : ./erpnext/private/backups/20230913_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230913_120001-erpnext-database.sql.gz         2.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230913_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-13 18:00:03.580523
+Config  : ./erpnext/private/backups/20230913_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230913_180001-erpnext-database.sql.gz         2.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230914_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-14 00:00:03.960615
+Config  : ./erpnext/private/backups/20230914_000002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230914_000002-erpnext-database.sql.gz         2.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230914_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-14 06:00:03.463559
+Config  : ./erpnext/private/backups/20230914_060001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230914_060001-erpnext-database.sql.gz         2.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230914_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-14 12:00:03.917473
+Config  : ./erpnext/private/backups/20230914_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230914_120002-erpnext-database.sql.gz         3.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230914_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-14 18:00:03.370250
+Config  : ./erpnext/private/backups/20230914_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230914_180001-erpnext-database.sql.gz         3.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230915_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-15 00:00:03.588697
+Config  : ./erpnext/private/backups/20230915_000001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230915_000001-erpnext-database.sql.gz         3.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230915_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-15 06:00:04.020513
+Config  : ./erpnext/private/backups/20230915_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230915_060002-erpnext-database.sql.gz         3.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230915_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-15 12:00:03.305081
+Config  : ./erpnext/private/backups/20230915_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230915_120001-erpnext-database.sql.gz         3.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230915_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-15 18:00:03.798784
+Config  : ./erpnext/private/backups/20230915_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230915_180001-erpnext-database.sql.gz         3.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230916_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-16 00:00:04.136815
+Config  : ./erpnext/private/backups/20230916_000002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230916_000002-erpnext-database.sql.gz         3.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230916_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-16 06:00:03.522118
+Config  : ./erpnext/private/backups/20230916_060001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230916_060001-erpnext-database.sql.gz         3.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230916_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-16 12:00:03.763684
+Config  : ./erpnext/private/backups/20230916_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230916_120002-erpnext-database.sql.gz         3.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230916_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-16 18:00:04.121120
+Config  : ./erpnext/private/backups/20230916_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230916_180002-erpnext-database.sql.gz         3.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230917_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-17 00:00:03.489800
+Config  : ./erpnext/private/backups/20230917_000001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230917_000001-erpnext-database.sql.gz         3.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230917_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-17 06:00:04.087995
+Config  : ./erpnext/private/backups/20230917_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230917_060002-erpnext-database.sql.gz         3.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230917_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-17 12:00:03.425705
+Config  : ./erpnext/private/backups/20230917_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230917_120001-erpnext-database.sql.gz         3.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230917_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-17 18:00:03.898006
+Config  : ./erpnext/private/backups/20230917_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230917_180001-erpnext-database.sql.gz         3.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230918_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-18 00:00:03.179465
+Config  : ./erpnext/private/backups/20230918_000001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230918_000001-erpnext-database.sql.gz         3.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230918_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-18 06:00:03.655566
+Config  : ./erpnext/private/backups/20230918_060001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230918_060001-erpnext-database.sql.gz         3.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230918_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-18 12:00:03.935949
+Config  : ./erpnext/private/backups/20230918_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230918_120002-erpnext-database.sql.gz         3.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230918_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-18 18:00:03.235619
+Config  : ./erpnext/private/backups/20230918_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230918_180001-erpnext-database.sql.gz         3.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230919_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-19 00:00:03.631375
+Config  : ./erpnext/private/backups/20230919_000001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230919_000001-erpnext-database.sql.gz         3.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230919_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-19 06:00:03.986381
+Config  : ./erpnext/private/backups/20230919_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230919_060002-erpnext-database.sql.gz         3.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230919_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-19 12:00:03.316054
+Config  : ./erpnext/private/backups/20230919_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230919_120001-erpnext-database.sql.gz         4.0MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230919_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-19 18:00:03.865005
+Config  : ./erpnext/private/backups/20230919_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230919_180001-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230920_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-20 00:00:04.151884
+Config  : ./erpnext/private/backups/20230920_000002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230920_000002-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230920_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-20 06:00:03.460706
+Config  : ./erpnext/private/backups/20230920_060001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230920_060001-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230920_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-20 12:00:03.740850
+Config  : ./erpnext/private/backups/20230920_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230920_120002-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230920_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-20 18:00:04.213164
+Config  : ./erpnext/private/backups/20230920_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230920_180002-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230921_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-21 00:00:03.565837
+Config  : ./erpnext/private/backups/20230921_000001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230921_000001-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230921_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-21 06:00:04.274433
+Config  : ./erpnext/private/backups/20230921_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230921_060002-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230921_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-21 12:00:03.882207
+Config  : ./erpnext/private/backups/20230921_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230921_120001-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230921_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-21 18:00:03.386820
+Config  : ./erpnext/private/backups/20230921_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230921_180001-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230922_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-22 00:00:03.648750
+Config  : ./erpnext/private/backups/20230922_000001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230922_000001-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230922_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-22 06:00:03.914921
+Config  : ./erpnext/private/backups/20230922_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230922_060002-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230922_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-22 12:00:03.289052
+Config  : ./erpnext/private/backups/20230922_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230922_120001-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230925_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-25 12:00:04.230296
+Config  : ./erpnext/private/backups/20230925_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230925_120002-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230925_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-25 18:00:03.671870
+Config  : ./erpnext/private/backups/20230925_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230925_180001-erpnext-database.sql.gz         4.1MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230926_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-26 00:00:03.921010
+Config  : ./erpnext/private/backups/20230926_000002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230926_000002-erpnext-database.sql.gz         4.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230926_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-26 06:00:03.339893
+Config  : ./erpnext/private/backups/20230926_060001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230926_060001-erpnext-database.sql.gz         4.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230926_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-26 12:00:03.763059
+Config  : ./erpnext/private/backups/20230926_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230926_120001-erpnext-database.sql.gz         4.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230926_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-26 18:00:04.316236
+Config  : ./erpnext/private/backups/20230926_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230926_180002-erpnext-database.sql.gz         4.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230927_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-27 00:00:03.782051
+Config  : ./erpnext/private/backups/20230927_000001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230927_000001-erpnext-database.sql.gz         4.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230927_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-27 06:00:04.217094
+Config  : ./erpnext/private/backups/20230927_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230927_060002-erpnext-database.sql.gz         4.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230927_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-27 12:00:03.953881
+Config  : ./erpnext/private/backups/20230927_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230927_120001-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230927_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-27 18:00:04.011171
+Config  : ./erpnext/private/backups/20230927_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230927_180002-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230928_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-28 12:00:05.171489
+Config  : ./erpnext/private/backups/20230928_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230928_120002-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230928_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-28 18:00:03.950256
+Config  : ./erpnext/private/backups/20230928_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230928_180001-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230929_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-29 00:00:03.366535
+Config  : ./erpnext/private/backups/20230929_000001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230929_000001-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230929_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-29 06:00:03.982678
+Config  : ./erpnext/private/backups/20230929_060001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230929_060001-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230929_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-29 12:00:03.532956
+Config  : ./erpnext/private/backups/20230929_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230929_120001-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20230929_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-09-29 18:00:04.056701
+Config  : ./erpnext/private/backups/20230929_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20230929_180002-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231002_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-02 12:00:03.409991
+Config  : ./erpnext/private/backups/20231002_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231002_120001-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231002_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-02 18:00:03.614214
+Config  : ./erpnext/private/backups/20231002_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231002_180001-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231003_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-03 12:00:03.992220
+Config  : ./erpnext/private/backups/20231003_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231003_120002-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231003_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-03 18:00:04.097078
+Config  : ./erpnext/private/backups/20231003_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231003_180002-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231004_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-04 12:00:03.382451
+Config  : ./erpnext/private/backups/20231004_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231004_120001-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231004_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-04 18:00:03.638868
+Config  : ./erpnext/private/backups/20231004_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231004_180001-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231005_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-05 12:00:03.888706
+Config  : ./erpnext/private/backups/20231005_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231005_120001-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231005_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-05 18:00:04.169686
+Config  : ./erpnext/private/backups/20231005_180001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231005_180001-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231006_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-06 10:30:02.691363
+Config  : ./crm/private/backups/20231006_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231006_103002-crm-database.sql.gz         261.7KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231005_180001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231004_180001-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231005_180001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231005_120001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231005_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231004_180001-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231006_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-06 12:00:04.692132
+Config  : ./erpnext/private/backups/20231006_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231006_120002-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231009_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-09 10:30:02.873241
+Config  : ./crm/private/backups/20231009_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231009_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231005_180001-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231005_180001-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231005_120001-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231005_120001-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231006_120002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231006_120002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231009_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-09 12:00:05.181072
+Config  : ./erpnext/private/backups/20231009_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231009_120002-erpnext-database.sql.gz         4.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231009_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-09 16:30:02.166999
+Config  : ./crm/private/backups/20231009_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231009_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231009_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231009_120002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231009_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-09 18:00:04.135731
+Config  : ./erpnext/private/backups/20231009_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231009_180002-erpnext-database.sql.gz         4.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231009_223001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-09 22:30:02.196504
+Config  : ./crm/private/backups/20231009_223001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231009_223001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231009_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231009_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231009_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231009_180002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231010_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-10 00:00:04.128788
+Config  : ./erpnext/private/backups/20231010_000002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231010_000002-erpnext-database.sql.gz         4.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231010_043001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-10 04:30:02.093601
+Config  : ./crm/private/backups/20231010_043001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231010_043001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231010_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231009_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231009_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231009_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231009_180002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231010_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-10 06:00:04.035241
+Config  : ./erpnext/private/backups/20231010_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231010_060002-erpnext-database.sql.gz         4.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231010_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-10 10:30:01.947590
+Config  : ./crm/private/backups/20231010_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231010_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231010_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231009_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231009_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231009_180002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231010_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-10 12:00:03.664794
+Config  : ./erpnext/private/backups/20231010_120001-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231010_120001-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231010_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-10 16:30:02.703366
+Config  : ./crm/private/backups/20231010_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231010_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231010_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_120001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231009_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231009_180002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231010_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-10 18:00:04.677900
+Config  : ./erpnext/private/backups/20231010_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231010_180002-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231010_223002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-10 22:30:02.629982
+Config  : ./crm/private/backups/20231010_223002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231010_223002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231010_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_120001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231009_180002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231011_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-11 00:00:04.463885
+Config  : ./erpnext/private/backups/20231011_000002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231011_000002-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231011_043002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-11 04:30:02.377314
+Config  : ./crm/private/backups/20231011_043002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231011_043002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231010_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231010_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_120001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231011_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231011_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-11 06:00:04.302869
+Config  : ./erpnext/private/backups/20231011_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231011_060002-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231011_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-11 10:30:02.326903
+Config  : ./crm/private/backups/20231011_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231011_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231011_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_060002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231010_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231011_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-11 12:00:04.264966
+Config  : ./erpnext/private/backups/20231011_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231011_120002-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231011_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-11 16:30:02.337023
+Config  : ./crm/private/backups/20231011_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231011_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231011_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231010_120001-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231011_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231011_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231011_120002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231011_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-11 18:00:04.395189
+Config  : ./erpnext/private/backups/20231011_180002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231011_180002-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231011_223001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-11 22:30:02.374276
+Config  : ./crm/private/backups/20231011_223001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231011_223001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231011_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231010_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231011_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231011_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231012_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-12 00:00:04.310899
+Config  : ./erpnext/private/backups/20231012_000002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231012_000002-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231012_043001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-12 04:30:02.352540
+Config  : ./crm/private/backups/20231012_043001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231012_043001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231011_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231011_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231012_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231011_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231012_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-12 06:00:04.442770
+Config  : ./erpnext/private/backups/20231012_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231012_060002-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231012_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-12 10:30:02.657026
+Config  : ./crm/private/backups/20231012_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231012_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231012_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_080011-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231011_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_080011-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231012_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-12 12:00:04.868761
+Config  : ./erpnext/private/backups/20231012_120002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231012_120002-erpnext-database.sql.gz         4.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231012_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-12 16:30:03.048781
+Config  : ./crm/private/backups/20231012_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231012_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231012_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_080011-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231012_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231011_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_080011-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231012_180003-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-12 18:00:05.161532
+Config  : ./erpnext/private/backups/20231012_180003-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231012_180003-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231012_223001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-12 22:30:02.188233
+Config  : ./crm/private/backups/20231012_223001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231012_223001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231012_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_180003-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_180003-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_080011-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231011_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231012_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231011_180002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231012_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_080011-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231013_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-13 00:00:04.056528
+Config  : ./erpnext/private/backups/20231013_000002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231013_000002-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231013_043001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-13 04:30:02.098394
+Config  : ./crm/private/backups/20231013_043001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231013_043001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231013_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_180003-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_180003-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_080011-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231012_000002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231012_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_080011-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231013_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-13 06:00:04.229633
+Config  : ./erpnext/private/backups/20231013_060002-erpnext-site_config_backup.json 225.0B
+Database: ./erpnext/private/backups/20231013_060002-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231013_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-13 10:30:02.264972
+Config  : ./crm/private/backups/20231013_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231013_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231013_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231013_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_180003-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_180003-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_060002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231012_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_080011-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231013_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-13 12:00:04.351445
+Config  : ./erpnext/private/backups/20231013_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231013_120002-erpnext-database.sql.gz         4.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231013_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-13 16:30:02.321867
+Config  : ./crm/private/backups/20231013_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231013_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231013_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231013_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_180003-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231013_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231012_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231013_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_000002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231013_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-13 18:00:04.159601
+Config  : ./erpnext/private/backups/20231013_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231013_180002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231013_223001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-13 22:30:02.181315
+Config  : ./crm/private/backups/20231013_223001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231013_223001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231013_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231012_180003-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231013_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231013_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231013_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231013_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_000002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231014_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-14 00:00:04.121760
+Config  : ./erpnext/private/backups/20231014_000002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231014_000002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231014_043001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-14 04:30:02.138947
+Config  : ./crm/private/backups/20231014_043001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231014_043001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231013_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231013_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231013_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_000002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231014_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-14 06:00:03.993767
+Config  : ./erpnext/private/backups/20231014_060002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231014_060002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231014_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-14 10:30:02.056611
+Config  : ./crm/private/backups/20231014_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231014_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231013_060002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231013_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_120002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231014_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-14 12:00:04.169937
+Config  : ./erpnext/private/backups/20231014_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231014_120002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231014_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-14 16:30:02.101167
+Config  : ./crm/private/backups/20231014_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231014_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231013_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_120002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231014_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-14 18:00:04.095009
+Config  : ./erpnext/private/backups/20231014_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231014_180002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231014_223001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-14 22:30:02.070157
+Config  : ./crm/private/backups/20231014_223001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231014_223001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231014_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231013_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231014_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_060002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231015_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-15 00:00:04.023865
+Config  : ./erpnext/private/backups/20231015_000002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231015_000002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231015_043001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-15 04:30:02.028301
+Config  : ./crm/private/backups/20231015_043001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231015_043001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231015_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231014_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_060002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231015_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-15 06:00:04.022726
+Config  : ./erpnext/private/backups/20231015_060002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231015_060002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231015_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-15 10:30:02.103716
+Config  : ./crm/private/backups/20231015_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231015_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231015_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231015_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_060002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231015_060002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231015_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-15 12:00:03.961088
+Config  : ./erpnext/private/backups/20231015_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231015_120002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231015_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-15 16:30:01.986167
+Config  : ./crm/private/backups/20231015_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231015_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231015_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231015_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231014_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231015_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_060002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231015_180001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-15 18:00:03.962742
+Config  : ./erpnext/private/backups/20231015_180001-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231015_180001-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231015_223001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-15 22:30:01.923615
+Config  : ./crm/private/backups/20231015_223001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231015_223001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231015_180001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231014_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231015_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231015_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231015_180001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231015_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_060002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231016_000001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-16 00:00:03.764064
+Config  : ./erpnext/private/backups/20231016_000001-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231016_000001-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231016_043002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-16 04:30:02.708518
+Config  : ./crm/private/backups/20231016_043002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231016_043002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231015_180001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_000001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231015_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231015_180001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_000001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231015_060002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231016_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-16 06:00:04.663197
+Config  : ./erpnext/private/backups/20231016_060002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231016_060002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231016_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-16 10:30:02.694019
+Config  : ./crm/private/backups/20231016_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231016_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231015_180001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_000001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231015_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_180001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_000001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231015_060002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231016_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-16 12:00:04.691257
+Config  : ./erpnext/private/backups/20231016_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231016_120002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231016_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-16 16:30:02.680580
+Config  : ./crm/private/backups/20231016_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231016_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231015_180001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_000001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231015_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231016_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_000001-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231016_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-16 18:00:04.695439
+Config  : ./erpnext/private/backups/20231016_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231016_180002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231016_223002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-16 22:30:02.720306
+Config  : ./crm/private/backups/20231016_223002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231016_223002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231015_180001-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231016_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_000001-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231017_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-17 00:00:04.626857
+Config  : ./erpnext/private/backups/20231017_000002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231017_000002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231017_043002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-17 04:30:02.658098
+Config  : ./crm/private/backups/20231017_043002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231017_043002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231016_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_000001-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231017_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_000002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231017_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-17 06:00:04.695268
+Config  : ./erpnext/private/backups/20231017_060002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231017_060002-erpnext-database.sql.gz         4.5MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231017_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-17 10:30:02.741498
+Config  : ./crm/private/backups/20231017_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231017_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231016_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_060002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231017_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231017_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231017_060002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231017_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-17 12:00:04.628210
+Config  : ./erpnext/private/backups/20231017_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231017_120002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231017_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-17 16:30:02.588885
+Config  : ./crm/private/backups/20231017_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231017_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231017_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231016_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231016_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231017_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231017_060002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231017_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-17 18:00:04.553330
+Config  : ./erpnext/private/backups/20231017_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231017_180002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231017_223002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-17 22:30:02.561302
+Config  : ./crm/private/backups/20231017_223002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231017_223002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231017_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231017_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231017_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231016_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231017_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231017_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_060002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231018_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-18 00:00:04.772848
+Config  : ./erpnext/private/backups/20231018_000002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231018_000002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231018_043002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-18 04:30:02.724921
+Config  : ./crm/private/backups/20231018_043002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231018_043002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231017_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231017_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231017_060002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231018_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-18 06:00:04.637939
+Config  : ./erpnext/private/backups/20231018_060002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231018_060002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231018_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-18 10:30:02.675153
+Config  : ./crm/private/backups/20231018_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231018_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231017_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_060002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231018_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-18 12:00:04.611936
+Config  : ./erpnext/private/backups/20231018_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231018_120002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231018_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-18 16:30:02.620320
+Config  : ./crm/private/backups/20231018_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231018_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231018_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231018_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_120002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231018_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-18 18:00:04.771063
+Config  : ./erpnext/private/backups/20231018_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231018_180002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231018_223002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-18 22:30:02.789831
+Config  : ./crm/private/backups/20231018_223002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231018_223002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231018_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231017_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231018_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_120002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231019_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-19 00:00:04.717698
+Config  : ./erpnext/private/backups/20231019_000002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231019_000002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231019_043002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-19 04:30:02.839211
+Config  : ./crm/private/backups/20231019_043002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231019_043002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231018_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231018_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_120002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231019_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-19 06:00:05.018124
+Config  : ./erpnext/private/backups/20231019_060002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231019_060002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231019_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-19 10:30:02.171822
+Config  : ./crm/private/backups/20231019_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231019_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231019_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_060002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231019_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-19 12:00:04.075693
+Config  : ./erpnext/private/backups/20231019_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231019_120002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231019_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-19 16:30:02.128195
+Config  : ./crm/private/backups/20231019_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231019_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231019_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231019_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231019_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231018_120002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231019_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-19 18:00:04.286354
+Config  : ./erpnext/private/backups/20231019_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231019_180002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231019_223001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-19 22:30:02.328053
+Config  : ./crm/private/backups/20231019_223001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231019_223001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231019_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231019_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231019_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231018_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231019_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231020_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-20 00:00:04.431386
+Config  : ./erpnext/private/backups/20231020_000002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231020_000002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231020_043002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-20 04:30:02.473457
+Config  : ./crm/private/backups/20231020_043002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231020_043002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231019_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231019_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231019_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231019_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231020_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-20 06:00:04.401830
+Config  : ./erpnext/private/backups/20231020_060002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231020_060002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231020_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-20 10:30:02.388737
+Config  : ./crm/private/backups/20231020_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231020_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231019_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231019_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_060002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231020_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231019_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231020_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-20 12:00:04.469414
+Config  : ./erpnext/private/backups/20231020_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231020_120002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231020_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-20 16:30:02.404257
+Config  : ./crm/private/backups/20231020_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231020_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231020_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231020_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231019_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231020_120002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231020_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-20 18:00:04.226120
+Config  : ./erpnext/private/backups/20231020_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231020_180002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231020_223001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-20 22:30:02.208134
+Config  : ./crm/private/backups/20231020_223001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231020_223001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231020_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231019_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231020_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231020_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231020_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231021_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-21 00:00:04.069226
+Config  : ./erpnext/private/backups/20231021_000002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231021_000002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231021_043001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-21 04:30:02.005106
+Config  : ./crm/private/backups/20231021_043001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231021_043001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231020_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231020_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231020_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231020_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231021_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-21 06:00:03.835272
+Config  : ./erpnext/private/backups/20231021_060002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231021_060002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231021_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-21 10:30:02.884894
+Config  : ./crm/private/backups/20231021_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231021_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231020_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_060002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231020_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231021_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231020_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231021_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-21 12:00:05.093280
+Config  : ./erpnext/private/backups/20231021_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231021_120002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231021_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-21 16:30:02.138530
+Config  : ./crm/private/backups/20231021_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231021_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231020_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231021_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231021_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231021_000002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231021_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-21 18:00:04.147418
+Config  : ./erpnext/private/backups/20231021_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231021_180002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231021_223001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-21 22:30:02.158295
+Config  : ./crm/private/backups/20231021_223001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231021_223001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231021_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231021_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231020_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231021_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231021_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231021_180002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231022_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-22 00:00:04.179312
+Config  : ./erpnext/private/backups/20231022_000002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231022_000002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231022_043001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-22 04:30:02.118100
+Config  : ./crm/private/backups/20231022_043001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231022_043001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231021_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231021_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231022_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231021_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_000002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231022_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-22 06:00:03.991785
+Config  : ./erpnext/private/backups/20231022_060002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231022_060002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231022_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-22 10:30:01.978665
+Config  : ./crm/private/backups/20231022_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231022_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231021_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231022_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_060002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231021_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231021_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_000002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231022_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-22 12:00:04.156961
+Config  : ./erpnext/private/backups/20231022_120001-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231022_120001-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231022_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-22 16:30:02.209289
+Config  : ./crm/private/backups/20231022_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231022_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231021_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231022_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231022_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_120001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231022_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_000002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231022_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-22 18:00:04.295994
+Config  : ./erpnext/private/backups/20231022_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231022_180002-erpnext-database.sql.gz         4.6MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231022_223001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-22 22:30:02.263190
+Config  : ./crm/private/backups/20231022_223001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231022_223001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231022_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231022_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231022_120001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231022_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231021_180002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231023_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-23 00:00:04.140575
+Config  : ./erpnext/private/backups/20231023_000002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231023_000002-erpnext-database.sql.gz         4.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231023_043001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-23 04:30:02.090760
+Config  : ./crm/private/backups/20231023_043001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231023_043001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231023_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231022_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231023_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231022_120001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231022_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_120001-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231023_060002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-23 06:00:04.019037
+Config  : ./erpnext/private/backups/20231023_060002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231023_060002-erpnext-database.sql.gz         4.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231023_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-23 10:30:02.283913
+Config  : ./crm/private/backups/20231023_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231023_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231023_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231023_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_060002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231022_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231023_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231023_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231022_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_120001-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231023_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-23 12:00:04.532285
+Config  : ./erpnext/private/backups/20231023_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231023_120002-erpnext-database.sql.gz         4.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231023_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-23 16:30:02.734434
+Config  : ./crm/private/backups/20231023_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231023_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231023_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231023_060002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231023_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231023_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231023_060002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231022_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231022_120001-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231023_120002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231023_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-23 18:00:04.741141
+Config  : ./erpnext/private/backups/20231023_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231023_180002-erpnext-database.sql.gz         4.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231024_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-24 10:30:02.554364
+Config  : ./crm/private/backups/20231024_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231024_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231023_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231023_060002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231023_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231023_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231023_060002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231022_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231023_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231023_120002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231024_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-24 12:00:04.522259
+Config  : ./erpnext/private/backups/20231024_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231024_120002-erpnext-database.sql.gz         4.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231024_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-24 16:30:02.499572
+Config  : ./crm/private/backups/20231024_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231024_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231023_120002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231024_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231023_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231024_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231023_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231023_120002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231024_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-24 18:00:04.532743
+Config  : ./erpnext/private/backups/20231024_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231024_180002-erpnext-database.sql.gz         4.7MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231025_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-25 10:30:02.398918
+Config  : ./crm/private/backups/20231025_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231025_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231024_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231024_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231023_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231024_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231024_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231023_180002-erpnext-database.sql.gz is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231025_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-25 12:00:04.160611
+Config  : ./erpnext/private/backups/20231025_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231025_120002-erpnext-database.sql.gz         4.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231025_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-25 16:30:02.077112
+Config  : ./crm/private/backups/20231025_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231025_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231024_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231024_120002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231025_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231025_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231024_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231024_120002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231025_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-25 18:00:04.171117
+Config  : ./erpnext/private/backups/20231025_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231025_180002-erpnext-database.sql.gz         4.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231026_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-26 10:30:01.958473
+Config  : ./crm/private/backups/20231026_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231026_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231024_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231025_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231025_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231025_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231024_180002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231025_180002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231026_120001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-26 12:00:04.015205
+Config  : ./erpnext/private/backups/20231026_120001-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231026_120001-erpnext-database.sql.gz         4.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231026_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-26 16:30:02.208476
+Config  : ./crm/private/backups/20231026_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231026_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231025_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231025_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231026_120001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231025_120002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231026_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231025_180002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231026_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-26 18:00:04.465138
+Config  : ./erpnext/private/backups/20231026_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231026_180002-erpnext-database.sql.gz         4.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231026_223002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-26 22:30:02.582121
+Config  : ./crm/private/backups/20231026_223002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231026_223002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231025_180002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231026_120001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231026_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231026_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231026_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231025_180002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231027_000002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-27 00:00:04.889986
+Config  : ./erpnext/private/backups/20231027_000002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231027_000002-erpnext-database.sql.gz         4.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231027_043001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-27 04:30:01.947718
+Config  : ./crm/private/backups/20231027_043001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231027_043001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231027_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231026_120001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231026_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231026_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231027_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231026_180002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231027_060001-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-27 06:00:04.198630
+Config  : ./erpnext/private/backups/20231027_060001-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231027_060001-erpnext-database.sql.gz         4.8MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231027_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-27 10:30:02.177776
+Config  : ./crm/private/backups/20231027_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231027_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231027_060001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231027_000002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231027_060001-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231026_120001-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231026_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231027_000002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231026_180002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231027_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-27 12:00:04.070112
+Config  : ./erpnext/private/backups/20231027_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231027_120002-erpnext-database.sql.gz         4.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231030_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-30 10:30:02.701402
+Config  : ./crm/private/backups/20231030_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231030_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231027_060001-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231027_000002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231027_120002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231027_060001-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231026_120001-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231027_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231027_000002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231026_180002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231030_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-30 12:00:04.815148
+Config  : ./erpnext/private/backups/20231030_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231030_120002-erpnext-database.sql.gz         4.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231030_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-30 16:30:02.048418
+Config  : ./crm/private/backups/20231030_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231030_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231030_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231030_120002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231030_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-30 18:00:04.077697
+Config  : ./erpnext/private/backups/20231030_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231030_180002-erpnext-database.sql.gz         4.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231031_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-31 10:30:02.393663
+Config  : ./crm/private/backups/20231031_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231031_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231030_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231030_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231030_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231030_120002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231031_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-31 12:00:04.184097
+Config  : ./erpnext/private/backups/20231031_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231031_120002-erpnext-database.sql.gz         4.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231031_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-10-31 16:30:02.098431
+Config  : ./crm/private/backups/20231031_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231031_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231030_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231031_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231030_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231031_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231030_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231030_120002-erpnext-database.sql.gz is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231031_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-10-31 18:00:03.947607
+Config  : ./erpnext/private/backups/20231031_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231031_180002-erpnext-database.sql.gz         4.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231102_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-11-02 10:30:02.948032
+Config  : ./crm/private/backups/20231102_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231102_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231030_180002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231031_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231031_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231031_120002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231030_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231031_180002-erpnext-database.sql.gz is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231102_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-11-02 12:00:05.117590
+Config  : ./erpnext/private/backups/20231102_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231102_120002-erpnext-database.sql.gz         4.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231102_163001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-11-02 16:30:02.456019
+Config  : ./crm/private/backups/20231102_163001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231102_163001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231102_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231102_120002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231102_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-11-02 18:00:04.533009
+Config  : ./erpnext/private/backups/20231102_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231102_180002-erpnext-database.sql.gz         4.9MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231103_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-11-03 10:30:02.662768
+Config  : ./crm/private/backups/20231103_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231103_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231102_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231102_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231102_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231102_180002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231103_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-11-03 12:00:04.600264
+Config  : ./erpnext/private/backups/20231103_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231103_120002-erpnext-database.sql.gz         5.0MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231106_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-11-06 10:30:02.628038
+Config  : ./crm/private/backups/20231106_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231106_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231102_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231102_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231102_120002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231103_120002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231102_180002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231103_120002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231106_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-11-06 12:00:04.603151
+Config  : ./erpnext/private/backups/20231106_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231106_120002-erpnext-database.sql.gz         5.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231106_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-11-06 16:30:02.661097
+Config  : ./crm/private/backups/20231106_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231106_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231106_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231106_120002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231106_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-11-06 18:00:04.993135
+Config  : ./erpnext/private/backups/20231106_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231106_180002-erpnext-database.sql.gz         5.2MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231107_103002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-11-07 10:30:02.783926
+Config  : ./crm/private/backups/20231107_103002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231107_103002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231106_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231106_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231106_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231106_120002-erpnext-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231107_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-11-07 12:00:04.812720
+Config  : ./erpnext/private/backups/20231107_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231107_120002-erpnext-database.sql.gz         5.3MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231107_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-11-07 16:30:02.887816
+Config  : ./crm/private/backups/20231107_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231107_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231107_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231106_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231106_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231107_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231106_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231106_120002-erpnext-database.sql.gz is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231107_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-11-07 18:00:05.467574
+Config  : ./erpnext/private/backups/20231107_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231107_180002-erpnext-database.sql.gz         7.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231108_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-11-08 10:30:02.154782
+Config  : ./crm/private/backups/20231108_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231108_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231107_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231106_180002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231107_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231107_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231107_120002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231106_180002-erpnext-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231108_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-11-08 12:00:04.746343
+Config  : ./erpnext/private/backups/20231108_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231108_120002-erpnext-database.sql.gz         7.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231108_163002-crm-database.sql.gz
+
+Backup Summary for crm at 2023-11-08 16:30:02.854495
+Config  : ./crm/private/backups/20231108_163002-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231108_163002-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231107_120002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231107_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231107_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231107_120002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231108_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231108_120002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231108_180002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-11-08 18:00:05.844521
+Config  : ./erpnext/private/backups/20231108_180002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231108_180002-erpnext-database.sql.gz         7.4MiB
+Backup for Site erpnext has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _2826d4e919472b67 -p********** _2826d4e919472b67 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./crm/private/backups/20231109_103001-crm-database.sql.gz
+
+Backup Summary for crm at 2023-11-09 10:30:02.249430
+Config  : ./crm/private/backups/20231109_103001-crm-site_config_backup.json 94.0B
+Database: ./crm/private/backups/20231109_103001-crm-database.sql.gz         261.9KiB
+Backup for Site crm has been successfully completed
+File ./erpnext/private/backups/20231107_180002-erpnext-site_config_backup.json is older than 24 hours
+File ./erpnext/private/backups/20231107_180002-erpnext-database.sql.gz is older than 24 hours
+File ./erpnext/private/backups/20231108_120002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231108_180002-erpnext-database.sql.gz is recent
+File ./erpnext/private/backups/20231108_180002-erpnext-site_config_backup.json is recent
+File ./erpnext/private/backups/20231108_120002-erpnext-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _56ce4edfe81cc9a5 -p********** _56ce4edfe81cc9a5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext/private/backups/20231109_120002-erpnext-database.sql.gz
+
+Backup Summary for erpnext at 2023-11-09 12:00:05.184982
+Config  : ./erpnext/private/backups/20231109_120002-erpnext-site_config_backup.json 248.0B
+Database: ./erpnext/private/backups/20231109_120002-erpnext-database.sql.gz         7.4MiB
+Backup for Site erpnext has been successfully completed

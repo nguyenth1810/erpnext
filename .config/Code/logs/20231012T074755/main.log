@@ -1,0 +1,26 @@
+2023-10-12 07:47:55.599 [info] update#setState idle
+2023-10-12 07:47:56.801 [error] vscode-file: Refused to load resource /snap/code/140/usr/share/code/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/snap/code/140/usr/share/code/resources/app/extensions/theme-seti/icons/seti.woff)
+2023-10-12 07:48:25.603 [info] update#setState checking for updates
+2023-10-12 07:48:25.605 [info] update#setState idle
+2023-10-12 08:48:25.606 [info] update#setState checking for updates
+2023-10-12 08:48:25.607 [info] update#setState idle
+2023-10-12 09:48:25.609 [info] update#setState checking for updates
+2023-10-12 09:48:25.610 [info] update#setState idle
+2023-10-12 10:48:25.611 [info] update#setState checking for updates
+2023-10-12 10:48:25.612 [info] update#setState idle
+2023-10-12 11:48:25.613 [info] update#setState checking for updates
+2023-10-12 11:48:25.614 [info] update#setState idle
+2023-10-12 12:48:25.615 [info] update#setState checking for updates
+2023-10-12 12:48:25.617 [info] update#setState idle
+2023-10-12 13:48:25.617 [info] update#setState checking for updates
+2023-10-12 13:48:25.618 [info] update#setState idle
+2023-10-12 14:48:25.619 [info] update#setState checking for updates
+2023-10-12 14:48:25.624 [info] update#setState idle
+2023-10-12 15:48:25.621 [info] update#setState checking for updates
+2023-10-12 15:48:25.623 [info] update#setState idle
+2023-10-12 16:48:25.622 [info] update#setState checking for updates
+2023-10-12 16:48:25.624 [info] update#setState idle
+2023-10-12 17:48:25.626 [info] update#setState checking for updates
+2023-10-12 17:48:25.627 [info] update#setState idle
+2023-10-12 18:18:06.472 [info] Extension host with pid 1018574 exited with code: 0, signal: unknown.
+2023-10-12 18:18:06.516 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1018586]: crashed with code 15 and reason 'killed'

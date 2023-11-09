@@ -1,0 +1,85 @@
+0 verbose cli [
+0 verbose cli   '/home/erp/.nvm/versions/node/v16.15.0/bin/node',
+0 verbose cli   '/home/erp/.nvm/versions/node/v16.15.0/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--ignore-scripts',
+0 verbose cli   'types-registry@latest'
+0 verbose cli ]
+1 info using npm@8.5.5
+2 info using node@v16.15.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/home/erp/.nvm/versions/node/v16.15.0/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/erp/.cache/typescript/5.2/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/home/erp/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/home/erp/.nvm/versions/node/v16.15.0/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 10ms
+19 timing npm:load:configload Completed in 10ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 2ms
+22 timing npm:load:display Completed in 2ms
+23 verbose logfile /home/erp/.npm/_logs/2023-09-27T07_57_46_732Z-debug-0.log
+24 timing npm:load:logFile Completed in 3ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 16ms
+28 timing arborist:ctor Completed in 1ms
+29 timing idealTree:init Completed in 9ms
+30 timing arborist:ctor Completed in 0ms
+31 http fetch GET 200 https://registry.npmjs.org/npm 265ms (cache revalidated)
+32 http fetch GET 200 https://registry.npmjs.org/types-registry 285ms (cache updated)
+33 timing idealTree:userRequests Completed in 289ms
+34 silly idealTree buildDeps
+35 silly fetch manifest types-registry@0.1.662
+36 silly placeDep ROOT types-registry@0.1.662 REPLACE for:  want: 0.1.662
+37 timing idealTree:#root Completed in 4ms
+38 timing idealTree:node_modules/types-registry Completed in 0ms
+39 timing idealTree:buildDeps Completed in 4ms
+40 timing idealTree:fixDepFlags Completed in 1ms
+41 timing idealTree Completed in 303ms
+42 timing reify:loadTrees Completed in 303ms
+43 timing reify:diffTrees Completed in 1ms
+44 silly reify mark retired [ '/home/erp/.cache/typescript/5.2/node_modules/types-registry' ]
+45 silly reify moves {
+45 silly reify   '/home/erp/.cache/typescript/5.2/node_modules/types-registry': '/home/erp/.cache/typescript/5.2/node_modules/.types-registry-fbwjCHeD'
+45 silly reify }
+46 timing reify:retireShallow Completed in 2ms
+47 timing reify:createSparse Completed in 1ms
+48 timing reify:loadBundles Completed in 0ms
+49 silly audit bulk request { 'types-registry': [ '0.1.662' ] }
+50 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.662.tgz. Extracting by manifest.
+51 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.662.tgz 171ms (cache miss)
+52 timing reifyNode:node_modules/types-registry Completed in 177ms
+53 timing reify:unpack Completed in 177ms
+54 timing reify:unretire Completed in 0ms
+55 timing build:queue Completed in 0ms
+56 timing build:deps Completed in 1ms
+57 timing build Completed in 1ms
+58 timing reify:build Completed in 1ms
+59 timing reify:trash Completed in 1ms
+60 timing reify:save Completed in 3ms
+61 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 202ms
+62 timing auditReport:getReport Completed in 203ms
+63 silly audit report {}
+64 timing auditReport:init Completed in 0ms
+65 timing reify:audit Completed in 204ms
+66 timing reify Completed in 518ms
+67 silly CHANGE node_modules/types-registry
+68 timing command:install Completed in 521ms
+69 notice
+69 notice New major version of npm available! 8.5.5 -> 10.1.0
+69 notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+69 notice Run `npm install -g npm@10.1.0` to update!
+69 notice
+70 verbose exit 0
+71 timing npm Completed in 808ms
+72 info ok

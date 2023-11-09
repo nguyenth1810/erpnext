@@ -1,0 +1,72 @@
+2023-10-26 09:33:51.969 [info] update#setState idle
+2023-10-26 09:34:21.972 [info] update#setState checking for updates
+2023-10-26 09:34:21.976 [info] update#setState idle
+2023-10-26 10:34:21.976 [info] update#setState checking for updates
+2023-10-26 10:34:21.978 [info] update#setState idle
+2023-10-26 11:34:21.980 [info] update#setState checking for updates
+2023-10-26 11:34:21.982 [info] update#setState idle
+2023-10-26 12:34:21.985 [info] update#setState checking for updates
+2023-10-26 12:34:21.988 [info] update#setState idle
+2023-10-26 13:34:21.989 [info] update#setState checking for updates
+2023-10-26 13:34:21.990 [info] update#setState idle
+2023-10-26 14:34:21.992 [info] update#setState checking for updates
+2023-10-26 14:34:21.993 [info] update#setState idle
+2023-10-26 15:34:21.995 [info] update#setState checking for updates
+2023-10-26 15:34:21.996 [info] update#setState idle
+2023-10-26 16:34:21.997 [info] update#setState checking for updates
+2023-10-26 16:34:21.998 [info] update#setState idle
+2023-10-26 17:34:21.999 [info] update#setState checking for updates
+2023-10-26 17:34:22.000 [info] update#setState idle
+2023-10-26 18:34:22.002 [info] update#setState checking for updates
+2023-10-26 18:34:22.003 [info] update#setState idle
+2023-10-26 19:34:22.004 [info] update#setState checking for updates
+2023-10-26 19:34:22.005 [info] update#setState idle
+2023-10-26 20:34:22.005 [info] update#setState checking for updates
+2023-10-26 20:34:22.006 [info] update#setState idle
+2023-10-26 21:34:22.007 [info] update#setState checking for updates
+2023-10-26 21:34:22.008 [info] update#setState idle
+2023-10-26 22:34:22.008 [info] update#setState checking for updates
+2023-10-26 22:34:22.009 [info] update#setState idle
+2023-10-26 23:34:22.008 [info] update#setState checking for updates
+2023-10-26 23:34:22.009 [info] update#setState idle
+2023-10-27 00:34:22.009 [info] update#setState checking for updates
+2023-10-27 00:34:22.010 [info] update#setState idle
+2023-10-27 01:34:22.010 [info] update#setState checking for updates
+2023-10-27 01:34:22.011 [info] update#setState idle
+2023-10-27 02:34:22.012 [info] update#setState checking for updates
+2023-10-27 02:34:22.013 [info] update#setState idle
+2023-10-27 03:34:22.013 [info] update#setState checking for updates
+2023-10-27 03:34:22.014 [info] update#setState idle
+2023-10-27 04:34:22.013 [info] update#setState checking for updates
+2023-10-27 04:34:22.014 [info] update#setState idle
+2023-10-27 05:34:22.015 [info] update#setState checking for updates
+2023-10-27 05:34:22.016 [info] update#setState idle
+2023-10-27 06:34:22.015 [info] update#setState checking for updates
+2023-10-27 06:34:22.016 [info] update#setState idle
+2023-10-27 07:34:22.019 [info] update#setState checking for updates
+2023-10-27 07:34:22.020 [info] update#setState idle
+2023-10-27 08:34:22.021 [info] update#setState checking for updates
+2023-10-27 08:34:22.022 [info] update#setState idle
+2023-10-27 09:34:22.024 [info] update#setState checking for updates
+2023-10-27 09:34:22.026 [info] update#setState idle
+2023-10-27 10:34:22.028 [info] update#setState checking for updates
+2023-10-27 10:34:22.030 [info] update#setState idle
+2023-10-27 11:34:22.031 [info] update#setState checking for updates
+2023-10-27 11:34:22.033 [info] update#setState idle
+2023-10-27 12:34:39.860 [info] update#setState checking for updates
+2023-10-27 12:34:39.861 [info] update#setState idle
+2023-10-27 13:34:39.864 [info] update#setState checking for updates
+2023-10-27 13:34:39.865 [info] update#setState idle
+2023-10-27 14:34:39.867 [info] update#setState checking for updates
+2023-10-27 14:34:39.868 [info] update#setState idle
+2023-10-27 15:34:39.870 [info] update#setState checking for updates
+2023-10-27 15:34:39.871 [info] update#setState idle
+2023-10-27 16:34:39.872 [info] update#setState checking for updates
+2023-10-27 16:34:39.873 [info] update#setState idle
+2023-10-27 17:34:39.874 [info] update#setState checking for updates
+2023-10-27 17:34:39.878 [info] update#setState idle
+2023-10-27 17:35:20.298 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-30 07:38:03.148 [info] Extension host with pid 338517 exited with code: 0, signal: unknown.
+2023-10-30 07:38:03.158 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-10-30 07:38:03.159 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 338547]: crashed with code 15 and reason 'killed'
+2023-10-30 07:38:06.196 [warning] [storage main] detected slow close() operation: Time: 3069ms, DB size: 98304b, Large Keys: terminal.integrated.bufferState:30007, memento/workbench.editors.files.textFileEditor:21035, history.entries:5847, terminal.integrated.environmentVariableCollectionsV2:3108, memento/workbench.parts.editor:2973

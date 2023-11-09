@@ -1,0 +1,11 @@
+2023-10-23 09:58:43.691 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-10-23 09:58:43.691 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-10-23 09:58:43.691 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2023-10-23 09:58:43.691 [info] Experiment 'pythonTestAdapter' is active
+2023-10-23 09:58:43.789 [info] Test server listening.
+2023-10-23 09:58:43.790 [info] Python interpreter path: ./env/bin/python
+2023-10-23 09:58:44.769 [info] > . ./env/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2023.18.0/pythonFiles/printEnvVariables.py
+2023-10-23 09:58:44.769 [info] shell: bash
+2023-10-23 09:58:44.917 [info] > /bin/python3 ~/.vscode/extensions/ms-python.python-2023.18.0/pythonFiles/printEnvVariables.py
+2023-10-23 09:58:44.918 [info] shell: bash
+2023-10-23 09:58:45.803 [info] Starting Pylance language server.

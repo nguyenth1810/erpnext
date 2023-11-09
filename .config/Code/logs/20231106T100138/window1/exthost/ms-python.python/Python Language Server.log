@@ -1,0 +1,10 @@
+2023-11-06 10:01:43.295 [info] [Info  - 10:01:43 AM] (345833) Pylance language server 2023.10.50 (pyright cfe56bfb) starting
+2023-11-06 10:01:43.295 [info] [Info  - 10:01:43 AM] (345833) Server root directory: /home/erp/.vscode/extensions/ms-python.vscode-pylance-2023.10.50/dist
+2023-11-06 10:01:43.299 [info] [Info  - 10:01:43 AM] (345833) Starting service instance "frappe-bench"
+2023-11-06 10:01:43.340 [info] [Info  - 10:01:43 AM] (345833) Setting pythonPath for service "frappe-bench": "/home/erp/frappe-bench/env/bin/python"
+2023-11-06 10:01:43.342 [info] [Info  - 10:01:43 AM] (345833) Setting environmentName for service "frappe-bench": "3.10.12 (env venv)"
+2023-11-06 10:01:43.374 [info] [Info  - 10:01:43 AM] (345833) Assuming Python version 3.10
+2023-11-06 10:01:43.816 [info] [Info  - 10:01:43 AM] (345833) Auto-excluding /home/erp/frappe-bench/env
+2023-11-06 10:01:44.070 [info] [Info  - 10:01:44 AM] (345833) Found 5781 source files
+2023-11-06 10:01:47.210 [info] [Info  - 10:01:47 AM] (345833) [IDX(2)] Long operation: index execution environment /home/erp/frappe-bench (2052ms)
+2023-11-06 10:01:47.230 [info] [Info  - 10:01:47 AM] (345833) [IDX(2)] Long operation: index packages /home/erp/frappe-bench (2079ms)

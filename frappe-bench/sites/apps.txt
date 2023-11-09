@@ -1,0 +1,6 @@
+frappe
+education
+hrms
+erpnext
+crm
+payments

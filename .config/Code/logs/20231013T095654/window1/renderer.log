@@ -1,0 +1,7 @@
+2023-10-13 09:56:55.222 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-10-13 09:56:55.232 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'terminalContextMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-10-13 09:56:58.310 [info] [perf] Render performance baseline is 32ms
+2023-10-13 11:13:57.060 [error] Cannot read properties of undefined (reading 'data'): TypeError: Cannot read properties of undefined (reading 'data')
+	at /home/erp/.vscode/extensions/ms-python.vscode-pylance-2023.10.20/dist/extension.bundle.js:1:131697
+	at _0x298105 (/home/erp/.vscode/extensions/ms-python.vscode-pylance-2023.10.20/dist/extension.bundle.js:1:143480)
+	at async me.provideCompletionItems (/snap/code/143/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:50662)

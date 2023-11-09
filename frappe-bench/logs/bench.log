@@ -1,0 +1,775 @@
+2023-08-29 14:52:13,810 DEBUG cd frappe-bench && python3 -m venv env
+2023-08-29 14:52:15,795 DEBUG cd frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-08-29 14:52:17,462 DEBUG cd frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-08-29 14:52:19,452 LOG Getting frappe
+2023-08-29 14:52:19,452 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2023-08-29 14:53:16,555 LOG Installing frappe
+2023-08-29 14:53:16,555 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/frappe 
+2023-08-29 14:53:40,383 DEBUG cd /home/erp/frappe-bench/apps/frappe && yarn install
+2023-08-29 14:54:08,100 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-29 14:54:08,100 DEBUG cd frappe-bench && bench build
+2023-08-29 14:54:08,174 INFO /usr/local/bin/bench build
+2023-08-29 14:54:20,716 LOG setting up backups
+2023-08-29 14:54:20,723 LOG backups were set up
+2023-08-29 14:54:20,724 INFO Bench frappe-bench initialized
+2023-08-29 14:54:59,710 INFO /usr/local/bin/bench new-site erpnext
+2023-08-29 14:56:04,456 INFO /usr/local/bin/bench use erpnext
+2023-08-29 14:56:11,464 INFO /usr/local/bin/bench get-app payments
+2023-08-29 14:56:12,233 LOG Getting payments
+2023-08-29 14:56:12,233 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2023-08-29 14:56:13,968 LOG Installing payments
+2023-08-29 14:56:14,038 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/payments 
+2023-08-29 14:56:16,860 DEBUG bench build --app payments
+2023-08-29 14:56:16,927 INFO /usr/local/bin/bench build --app payments
+2023-08-29 14:56:20,965 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-29 14:56:59,657 INFO /usr/local/bin/bench get-app --branch version-14 erpnext
+2023-08-29 14:57:00,377 LOG Getting erpnext
+2023-08-29 14:57:00,377 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2023-08-29 14:57:51,183 LOG Installing erpnext
+2023-08-29 14:57:51,259 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/erpnext 
+2023-08-29 14:58:18,961 DEBUG cd /home/erp/frappe-bench/apps/erpnext && yarn install
+2023-08-29 14:58:21,072 DEBUG bench build --app erpnext
+2023-08-29 14:58:21,137 INFO /usr/local/bin/bench build --app erpnext
+2023-08-29 14:58:26,036 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-29 15:00:58,319 INFO /usr/local/bin/bench get-app hrms
+2023-08-29 15:00:59,102 LOG Getting hrms
+2023-08-29 15:00:59,102 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-08-29 15:01:12,125 LOG Installing hrms
+2023-08-29 15:01:12,221 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/hrms 
+2023-08-29 15:01:14,015 DEBUG cd /home/erp/frappe-bench/apps/hrms && yarn install
+2023-08-29 15:01:15,052 DEBUG bench build --app hrms
+2023-08-29 15:01:15,126 INFO /usr/local/bin/bench build --app hrms
+2023-08-29 15:01:19,505 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-29 15:01:32,148 INFO /usr/local/bin/bench --site erpnext install-app hrms
+2023-08-29 15:03:43,404 INFO /usr/local/bin/bench start
+2023-08-29 15:03:43,573 INFO /usr/local/bin/bench serve --port 8000
+2023-08-29 15:03:43,585 INFO /usr/local/bin/bench worker
+2023-08-29 15:03:43,589 INFO /usr/local/bin/bench watch
+2023-08-29 15:03:43,589 INFO /usr/local/bin/bench schedule
+2023-08-29 18:00:01,795 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-30 07:40:58,480 INFO /usr/local/bin/bench start
+2023-08-30 07:40:58,672 INFO /usr/local/bin/bench serve --port 8000
+2023-08-30 07:40:58,680 INFO /usr/local/bin/bench schedule
+2023-08-30 07:40:58,691 INFO /usr/local/bin/bench worker
+2023-08-30 07:40:58,691 INFO /usr/local/bin/bench watch
+2023-08-30 12:00:01,886 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-30 13:32:26,116 INFO /usr/local/bin/bench migrate
+2023-08-30 13:43:16,251 INFO /usr/local/bin/bench migrate
+2023-08-30 13:43:28,885 INFO /usr/local/bin/bench start
+2023-08-30 13:43:29,044 INFO /usr/local/bin/bench worker
+2023-08-30 13:43:29,053 INFO /usr/local/bin/bench schedule
+2023-08-30 13:43:29,053 INFO /usr/local/bin/bench serve --port 8000
+2023-08-30 13:43:29,064 INFO /usr/local/bin/bench watch
+2023-08-30 13:43:37,940 INFO /usr/local/bin/bench migrate
+2023-08-30 18:00:01,630 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-31 07:48:54,128 INFO /usr/local/bin/bench migrate
+2023-08-31 07:48:59,474 INFO /usr/local/bin/bench start
+2023-08-31 07:48:59,719 INFO /usr/local/bin/bench serve --port 8000
+2023-08-31 07:48:59,721 INFO /usr/local/bin/bench worker
+2023-08-31 07:48:59,725 INFO /usr/local/bin/bench schedule
+2023-08-31 07:48:59,731 INFO /usr/local/bin/bench watch
+2023-08-31 08:21:08,179 INFO /usr/local/bin/bench set-config -g developer_mode 1
+2023-08-31 08:21:22,545 INFO /usr/local/bin/bench --site erpnext clear-cache
+2023-08-31 08:21:37,057 INFO /usr/local/bin/bench setup requirements --dev
+2023-08-31 08:21:37,584 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade coverage~=6.5.0 Faker~=13.12.1 pyngrok~=5.0.5 unittest-xml-reporting~=3.0.4 watchdog~=2.1.9 hypothesis~=6.68.2 
+2023-08-31 08:21:43,126 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade hypothesis~=6.31.0 
+2023-08-31 08:21:45,334 INFO A newer version of bench is available: 5.17.0 → 5.17.1
+2023-08-31 08:21:53,106 INFO /usr/local/bin/bench start
+2023-08-31 08:21:53,260 INFO /usr/local/bin/bench watch
+2023-08-31 08:21:53,263 INFO /usr/local/bin/bench serve --port 8000
+2023-08-31 08:21:53,266 INFO /usr/local/bin/bench worker
+2023-08-31 08:21:53,272 INFO /usr/local/bin/bench schedule
+2023-08-31 08:30:21,812 INFO /usr/local/bin/bench start
+2023-08-31 08:30:21,967 INFO /usr/local/bin/bench serve --port 8000
+2023-08-31 08:30:21,968 INFO /usr/local/bin/bench schedule
+2023-08-31 08:30:21,972 INFO /usr/local/bin/bench watch
+2023-08-31 08:30:21,979 INFO /usr/local/bin/bench worker
+2023-08-31 08:31:40,212 INFO /usr/local/bin/bench set-config -g developer_mode 0
+2023-08-31 08:31:48,540 INFO /usr/local/bin/bench --site erpnext clear-cache
+2023-08-31 08:31:53,140 INFO /usr/local/bin/bench strat
+2023-08-31 08:31:55,540 INFO /usr/local/bin/bench start
+2023-08-31 08:31:55,699 INFO /usr/local/bin/bench worker
+2023-08-31 08:31:55,703 INFO /usr/local/bin/bench watch
+2023-08-31 08:31:55,707 INFO /usr/local/bin/bench serve --port 8000
+2023-08-31 08:31:55,709 INFO /usr/local/bin/bench schedule
+2023-08-31 12:00:01,970 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-31 13:31:10,928 INFO /usr/local/bin/bench start
+2023-08-31 13:31:11,121 INFO /usr/local/bin/bench worker
+2023-08-31 13:31:11,125 INFO /usr/local/bin/bench serve --port 8000
+2023-08-31 13:31:11,129 INFO /usr/local/bin/bench watch
+2023-08-31 13:31:11,135 INFO /usr/local/bin/bench schedule
+2023-08-31 13:40:20,701 INFO /usr/local/bin/bench start
+2023-08-31 13:40:20,870 INFO /usr/local/bin/bench worker
+2023-08-31 13:40:20,871 INFO /usr/local/bin/bench serve --port 8000
+2023-08-31 13:40:20,876 INFO /usr/local/bin/bench watch
+2023-08-31 13:40:20,882 INFO /usr/local/bin/bench schedule
+2023-08-31 14:20:36,452 INFO /usr/local/bin/bench start
+2023-08-31 14:20:36,613 INFO /usr/local/bin/bench schedule
+2023-08-31 14:20:36,614 INFO /usr/local/bin/bench serve --port 8000
+2023-08-31 14:20:36,615 INFO /usr/local/bin/bench watch
+2023-08-31 14:20:36,625 INFO /usr/local/bin/bench worker
+2023-09-05 07:59:56,747 INFO /usr/local/bin/bench start
+2023-09-05 07:59:56,941 INFO /usr/local/bin/bench watch
+2023-09-05 07:59:56,942 INFO /usr/local/bin/bench serve --port 8000
+2023-09-05 07:59:56,942 INFO /usr/local/bin/bench worker
+2023-09-05 07:59:56,942 INFO /usr/local/bin/bench schedule
+2023-09-05 09:16:32,143 INFO /usr/local/bin/bench migrate
+2023-09-05 09:18:00,422 INFO /usr/local/bin/bench start
+2023-09-05 09:18:00,578 INFO /usr/local/bin/bench watch
+2023-09-05 09:18:00,587 INFO /usr/local/bin/bench worker
+2023-09-05 09:18:00,597 INFO /usr/local/bin/bench schedule
+2023-09-05 09:18:00,598 INFO /usr/local/bin/bench serve --port 8000
+2023-09-05 12:00:01,667 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-05 18:00:01,459 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-06 07:35:57,089 INFO /usr/local/bin/bench start
+2023-09-06 07:35:57,298 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 07:35:57,303 INFO /usr/local/bin/bench watch
+2023-09-06 07:35:57,304 INFO /usr/local/bin/bench schedule
+2023-09-06 07:35:57,308 INFO /usr/local/bin/bench worker
+2023-09-06 07:56:38,218 INFO /usr/local/bin/bench start
+2023-09-06 07:56:38,414 INFO /usr/local/bin/bench schedule
+2023-09-06 07:56:38,419 INFO /usr/local/bin/bench watch
+2023-09-06 07:56:38,434 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 07:56:38,438 INFO /usr/local/bin/bench worker
+2023-09-06 08:02:18,157 INFO /usr/local/bin/bench start
+2023-09-06 08:02:18,378 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 08:02:18,381 INFO /usr/local/bin/bench schedule
+2023-09-06 08:02:18,385 INFO /usr/local/bin/bench worker
+2023-09-06 08:02:18,399 INFO /usr/local/bin/bench watch
+2023-09-06 08:58:42,998 INFO /usr/local/bin/bench status
+2023-09-06 08:58:49,509 INFO /usr/local/bin/bench watch
+2023-09-06 08:59:54,981 INFO /usr/local/bin/bench watch
+2023-09-06 12:00:01,120 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-06 15:58:35,698 INFO /usr/local/bin/bench version
+2023-09-06 15:59:31,697 INFO /usr/local/bin/bench update --patch
+2023-09-06 15:59:34,563 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2023-09-06 15:59:52,322 INFO A newer version of bench is available: 5.17.0 → 5.17.2
+2023-09-06 16:00:36,159 INFO /usr/local/bin/bench migrate
+2023-09-06 16:01:56,501 INFO /usr/local/bin/bench version
+2023-09-06 16:02:07,722 INFO /usr/local/bin/bench start
+2023-09-06 16:02:16,562 INFO /usr/local/bin/bench shutdown
+2023-09-06 16:02:20,365 INFO /usr/local/bin/bench stop
+2023-09-06 16:02:24,446 INFO /usr/local/bin/bench restart
+2023-09-06 16:02:24,450 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 16:02:24,694 INFO A newer version of bench is available: 5.17.0 → 5.17.2
+2023-09-06 16:04:39,583 INFO /usr/local/bin/bench upgrade --patch
+2023-09-06 16:08:17,311 INFO /usr/local/bin/bench upgrade
+2023-09-06 16:09:12,109 INFO /usr/local/bin/bench restart
+2023-09-06 16:09:12,112 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 16:10:49,652 INFO /usr/local/bin/bench restart
+2023-09-06 16:10:49,897 DEBUG cd /home/erp/frappe-bench && sudo supervisorctl restart frappe:
+2023-09-06 16:10:50,019 WARNING cd /home/erp/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-09-06 16:10:50,020 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-09-06 16:11:04,858 INFO /usr/local/bin/bench restart
+2023-09-06 16:11:05,092 DEBUG cd /home/erp/frappe-bench && sudo supervisorctl restart frappe:
+2023-09-06 16:11:05,213 WARNING cd /home/erp/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-09-06 16:11:05,213 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-09-06 16:20:43,057 INFO /usr/local/bin/bench setup supervisor
+2023-09-06 16:20:43,170 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-09-06 16:20:43,170 LOG Updated supervisord.conf: 'chown' changed from '' to 'erp:erp'
+2023-09-06 16:21:22,825 INFO /usr/local/bin/bench restart
+2023-09-06 16:21:23,054 DEBUG cd /home/erp/frappe-bench && sudo supervisorctl restart frappe:
+2023-09-06 16:21:23,174 WARNING cd /home/erp/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-09-06 16:21:23,175 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-09-06 16:26:00,721 INFO /usr/local/bin/bench restart
+2023-09-06 16:26:00,957 DEBUG cd /home/erp/frappe-bench && sudo supervisorctl restart frappe:
+2023-09-06 16:26:01,078 WARNING cd /home/erp/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-09-06 16:26:01,078 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-09-06 16:35:17,756 INFO /usr/local/bin/bench start
+2023-09-06 16:35:27,531 INFO /usr/local/bin/bench stop
+2023-09-06 16:35:34,348 INFO /usr/local/bin/bench down
+2023-09-06 16:35:40,977 INFO /usr/local/bin/bench stopped
+2023-09-06 16:35:44,468 INFO /usr/local/bin/bench --help
+2023-09-06 16:36:15,621 INFO /usr/local/bin/bench clear-cache
+2023-09-06 16:36:22,430 INFO /usr/local/bin/bench --upgrade --patch
+2023-09-06 16:36:31,972 INFO /usr/local/bin/bench upgrate --patch
+2023-09-06 16:36:36,105 INFO /usr/local/bin/bench version
+2023-09-06 16:36:50,529 INFO /usr/local/bin/bench update --patch
+2023-09-06 16:36:51,715 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2023-09-06 16:37:11,160 DEBUG cd /home/erp/frappe-bench && sudo supervisorctl restart frappe:
+2023-09-06 16:37:11,293 WARNING cd /home/erp/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-09-06 16:37:11,293 WARNING /usr/local/bin/bench update --patch executed with exit code 1
+2023-09-06 16:50:50,580 INFO /usr/local/bin/bench start
+2023-09-06 16:51:37,499 INFO /usr/local/bin/bench migrate
+2023-09-06 16:52:08,795 INFO /usr/local/bin/bench clear-cache
+2023-09-06 16:52:12,521 INFO /usr/local/bin/bench start
+2023-09-06 16:53:58,020 INFO /usr/local/bin/bench setup redis-cache
+2023-09-06 16:53:58,023 WARNING /usr/local/bin/bench setup redis-cache executed with exit code 2
+2023-09-06 16:54:09,764 INFO /usr/local/bin/bench setup redis-queue
+2023-09-06 16:54:09,767 WARNING /usr/local/bin/bench setup redis-queue executed with exit code 2
+2023-09-06 16:54:11,731 INFO /usr/local/bin/bench start
+2023-09-06 16:54:11,900 INFO /usr/local/bin/bench watch
+2023-09-06 16:54:11,907 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 16:54:11,907 INFO /usr/local/bin/bench worker
+2023-09-06 16:54:11,907 INFO /usr/local/bin/bench schedule
+2023-09-06 16:55:23,627 INFO /usr/local/bin/bench start
+2023-09-06 16:55:23,793 INFO /usr/local/bin/bench watch
+2023-09-06 16:55:23,801 INFO /usr/local/bin/bench worker
+2023-09-06 16:55:23,806 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 16:55:23,806 INFO /usr/local/bin/bench schedule
+2023-09-06 16:56:03,996 INFO /usr/local/bin/bench migrate
+2023-09-06 16:56:16,162 INFO /usr/local/bin/bench update --patch
+2023-09-06 16:56:17,295 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2023-09-06 16:56:38,318 DEBUG cd /home/erp/frappe-bench && sudo supervisorctl restart frappe:
+2023-09-06 16:56:38,440 WARNING cd /home/erp/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-09-06 16:56:38,440 WARNING /usr/local/bin/bench update --patch executed with exit code 1
+2023-09-06 16:58:22,795 INFO /usr/local/bin/bench start
+2023-09-06 16:58:22,956 INFO /usr/local/bin/bench watch
+2023-09-06 16:58:22,960 INFO /usr/local/bin/bench schedule
+2023-09-06 16:58:22,963 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 16:58:22,967 INFO /usr/local/bin/bench worker
+2023-09-06 16:58:56,342 INFO /usr/local/bin/bench update --patch
+2023-09-06 16:58:57,484 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2023-09-06 16:59:09,745 WARNING /usr/local/bin/bench update --patch executed with exit code 1
+2023-09-06 16:59:25,674 INFO /usr/local/bin/bench start
+2023-09-06 16:59:25,846 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 16:59:25,849 INFO /usr/local/bin/bench worker
+2023-09-06 16:59:25,850 INFO /usr/local/bin/bench watch
+2023-09-06 16:59:25,855 INFO /usr/local/bin/bench schedule
+2023-09-06 16:59:35,049 INFO /usr/local/bin/bench update --patch
+2023-09-06 16:59:36,218 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2023-09-06 16:59:52,618 DEBUG cd /home/erp/frappe-bench && sudo supervisorctl restart frappe:
+2023-09-06 16:59:52,752 WARNING cd /home/erp/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-09-06 16:59:52,752 WARNING /usr/local/bin/bench update --patch executed with exit code 1
+2023-09-06 17:03:11,590 INFO /usr/local/bin/bench start
+2023-09-06 17:03:11,747 INFO /usr/local/bin/bench schedule
+2023-09-06 17:03:11,749 INFO /usr/local/bin/bench watch
+2023-09-06 17:03:11,749 INFO /usr/local/bin/bench worker
+2023-09-06 17:03:11,752 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 17:04:05,227 INFO /usr/local/bin/bench start
+2023-09-06 17:04:05,405 INFO /usr/local/bin/bench watch
+2023-09-06 17:04:05,406 INFO /usr/local/bin/bench schedule
+2023-09-06 17:04:05,414 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 17:04:05,417 INFO /usr/local/bin/bench worker
+2023-09-06 17:04:31,364 INFO /usr/local/bin/bench update --patch
+2023-09-06 17:04:32,580 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2023-09-06 17:04:48,738 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 17:05:36,094 INFO /usr/local/bin/bench migrate
+2023-09-06 17:07:10,121 INFO /usr/local/bin/bench update --patch
+2023-09-06 17:07:17,376 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 17:08:16,867 INFO /usr/local/bin/bench update --patch
+2023-09-06 17:08:24,152 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 17:08:59,465 INFO /usr/local/bin/bench switch-to-branch --upgrade version-14 hrms
+2023-09-06 17:08:59,469 INFO Fetching upstream unshallow for hrms
+2023-09-06 17:08:59,469 DEBUG cd ./apps/hrms && git remote set-branches upstream  '*'
+2023-09-06 17:08:59,475 DEBUG cd ./apps/hrms && git fetch --all --unshallow --quiet
+2023-09-06 17:09:06,839 DEBUG cd ./apps/hrms && git checkout -f version-14
+2023-09-06 17:09:06,847 INFO Successfully switched branches for: hrms
+2023-09-06 17:09:17,925 INFO /usr/local/bin/bench update --patch
+2023-09-06 17:09:25,368 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 17:12:47,397 INFO /usr/local/bin/bench version
+2023-09-06 17:14:12,523 INFO /usr/local/bin/bench switch-to-branch --upgrade version-14 hrms
+2023-09-06 17:14:12,527 INFO Fetching upstream unshallow for hrms
+2023-09-06 17:14:12,527 DEBUG cd ./apps/hrms && git remote set-branches upstream  '*'
+2023-09-06 17:14:12,534 DEBUG cd ./apps/hrms && git fetch --all --unshallow --quiet
+2023-09-06 17:14:14,694 DEBUG cd ./apps/hrms && git checkout -f version-14
+2023-09-06 17:14:14,699 INFO Successfully switched branches for: hrms
+2023-09-06 17:14:26,034 INFO /usr/local/bin/bench update --patch
+2023-09-06 17:14:33,408 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 17:15:28,869 INFO /usr/local/bin/bench start
+2023-09-06 17:15:29,037 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 17:15:29,038 INFO /usr/local/bin/bench worker
+2023-09-06 17:15:29,044 INFO /usr/local/bin/bench watch
+2023-09-06 17:15:29,045 INFO /usr/local/bin/bench schedule
+2023-09-06 17:15:40,301 INFO /usr/local/bin/bench migrate
+2023-09-06 17:16:32,078 INFO /usr/local/bin/bench migrate --skip-search-index
+2023-09-06 17:16:46,877 INFO /usr/local/bin/bench update --patch --skip-search-index
+2023-09-06 17:16:46,881 WARNING /usr/local/bin/bench update --patch --skip-search-index executed with exit code 2
+2023-09-06 17:17:13,358 INFO /usr/local/bin/bench --site all list-apps
+2023-09-06 17:19:07,612 INFO /usr/local/bin/bench update
+2023-09-06 17:19:10,372 WARNING /usr/local/bin/bench update executed with exit code 1
+2023-09-06 17:20:31,731 INFO /usr/local/bin/bench update --pull
+2023-09-06 17:20:34,546 WARNING /usr/local/bin/bench update --pull executed with exit code 1
+2023-09-06 17:25:07,346 INFO /usr/local/bin/bench update --reset
+2023-09-06 17:25:10,257 DEBUG cd /home/erp/frappe-bench/apps/frappe && git fetch upstream --unshallow
+2023-09-06 17:28:14,656 LOG pulling frappe
+2023-09-06 17:28:14,656 DEBUG cd /home/erp/frappe-bench/apps/frappe && git fetch --all
+2023-09-06 17:28:15,574 DEBUG cd /home/erp/frappe-bench/apps/frappe && git reset --hard upstream/version-14
+2023-09-06 17:28:15,671 DEBUG cd /home/erp/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2023-09-06 17:28:15,711 DEBUG cd /home/erp/frappe-bench/apps/hrms && git fetch upstream --unshallow
+2023-09-06 17:28:16,997 LOG pulling hrms
+2023-09-06 17:28:16,997 DEBUG cd /home/erp/frappe-bench/apps/hrms && git fetch --all
+2023-09-06 17:28:17,790 DEBUG cd /home/erp/frappe-bench/apps/hrms && git reset --hard upstream/version-14
+2023-09-06 17:28:17,801 DEBUG cd /home/erp/frappe-bench/apps/hrms && find . -name "*.pyc" -delete
+2023-09-06 17:28:17,815 DEBUG cd /home/erp/frappe-bench/apps/erpnext && git fetch upstream --unshallow
+2023-09-06 17:37:28,507 LOG pulling erpnext
+2023-09-06 17:37:28,507 DEBUG cd /home/erp/frappe-bench/apps/erpnext && git fetch --all
+2023-09-06 17:37:29,637 DEBUG cd /home/erp/frappe-bench/apps/erpnext && git reset --hard upstream/version-14
+2023-09-06 17:37:29,905 DEBUG cd /home/erp/frappe-bench/apps/erpnext && find . -name "*.pyc" -delete
+2023-09-06 17:37:29,938 DEBUG cd /home/erp/frappe-bench/apps/payments && git fetch upstream --unshallow
+2023-09-06 17:37:31,277 LOG pulling payments
+2023-09-06 17:37:31,277 DEBUG cd /home/erp/frappe-bench/apps/payments && git fetch --all
+2023-09-06 17:37:32,055 DEBUG cd /home/erp/frappe-bench/apps/payments && git reset --hard upstream/develop
+2023-09-06 17:37:32,063 DEBUG cd /home/erp/frappe-bench/apps/payments && find . -name "*.pyc" -delete
+2023-09-06 17:37:32,064 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-09-06 17:37:33,437 LOG Installing frappe
+2023-09-06 17:37:33,437 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/frappe 
+2023-09-06 17:37:37,218 DEBUG cd /home/erp/frappe-bench/apps/frappe && yarn install
+2023-09-06 17:37:41,497 LOG Installing hrms
+2023-09-06 17:37:41,497 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/hrms 
+2023-09-06 17:37:43,527 LOG Installing erpnext
+2023-09-06 17:37:43,527 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/erpnext 
+2023-09-06 17:37:45,644 DEBUG cd /home/erp/frappe-bench/apps/erpnext && yarn install
+2023-09-06 17:37:45,887 LOG Installing payments
+2023-09-06 17:37:45,887 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/payments 
+2023-09-06 17:38:06,617 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 17:38:15,426 INFO /usr/local/bin/bench start
+2023-09-06 17:38:15,582 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 17:38:15,584 INFO /usr/local/bin/bench worker
+2023-09-06 17:38:15,585 INFO /usr/local/bin/bench watch
+2023-09-06 17:38:15,585 INFO /usr/local/bin/bench schedule
+2023-09-06 18:00:02,065 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-06 18:01:41,209 INFO /usr/local/bin/bench start
+2023-09-06 18:01:41,394 INFO /usr/local/bin/bench schedule
+2023-09-06 18:01:41,394 INFO /usr/local/bin/bench serve --port 8000
+2023-09-06 18:01:41,402 INFO /usr/local/bin/bench watch
+2023-09-06 18:01:41,405 INFO /usr/local/bin/bench worker
+2023-09-07 07:48:15,274 INFO /usr/local/bin/bench start
+2023-09-07 07:48:15,544 INFO /usr/local/bin/bench serve --port 8000
+2023-09-07 07:48:15,550 INFO /usr/local/bin/bench worker
+2023-09-07 07:48:15,550 INFO /usr/local/bin/bench watch
+2023-09-07 07:48:15,555 INFO /usr/local/bin/bench schedule
+2023-09-07 12:00:01,861 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-07 18:00:01,788 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-08 00:00:01,099 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-08 06:00:01,281 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-08 12:00:01,305 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-08 17:02:09,416 INFO /usr/local/bin/bench version
+2023-09-08 18:00:01,386 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-09 00:00:01,280 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-09 06:00:01,346 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-09 12:00:01,350 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-09 18:00:01,392 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-10 00:00:01,296 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-10 06:00:01,420 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-10 12:00:01,297 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-10 18:00:01,285 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-11 00:00:01,403 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-11 06:00:01,534 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-11 07:58:01,488 INFO /usr/local/bin/bench --site erpnext uninstall-app hrms
+2023-09-11 07:58:28,495 INFO /usr/local/bin/bench version
+2023-09-11 07:58:53,479 INFO /usr/local/bin/bench remove-app hrms
+2023-09-11 07:58:53,554 INFO /usr/local/bin/bench --site all list-apps --format json
+2023-09-11 07:58:54,107 WARNING /usr/local/bin/bench remove-app hrms executed with exit code 1
+2023-09-11 07:59:06,094 INFO /usr/local/bin/bench version
+2023-09-11 07:59:16,445 INFO /usr/local/bin/bench remove hrms
+2023-09-11 07:59:16,515 INFO /usr/local/bin/bench --site all list-apps --format json
+2023-09-11 07:59:17,045 WARNING /usr/local/bin/bench remove hrms executed with exit code 1
+2023-09-11 07:59:33,646 INFO /usr/local/bin/bench get-app --branch version-14 hrms
+2023-09-11 07:59:35,859 INFO App moved from apps/hrms to archived/apps/hrms-2023-09-11
+2023-09-11 07:59:35,860 LOG Getting hrms
+2023-09-11 07:59:35,860 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch version-14  --origin upstream
+2023-09-11 07:59:46,844 LOG Installing hrms
+2023-09-11 07:59:46,977 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/hrms 
+2023-09-11 07:59:49,634 DEBUG bench build --app hrms
+2023-09-11 07:59:49,703 INFO /usr/local/bin/bench build --app hrms
+2023-09-11 07:59:54,206 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-11 07:59:57,501 INFO /usr/local/bin/bench version
+2023-09-11 08:00:12,119 INFO /usr/local/bin/bench --site erpnext install-app hrms
+2023-09-11 08:00:18,173 INFO /usr/local/bin/bench start
+2023-09-11 08:00:18,368 INFO /usr/local/bin/bench serve --port 8000
+2023-09-11 08:00:18,368 INFO /usr/local/bin/bench schedule
+2023-09-11 08:00:18,376 INFO /usr/local/bin/bench watch
+2023-09-11 08:00:18,376 INFO /usr/local/bin/bench worker
+2023-09-11 08:00:25,669 INFO /usr/local/bin/bench migrate
+2023-09-11 08:01:26,428 INFO /usr/local/bin/bench remove payments
+2023-09-11 08:01:26,500 INFO /usr/local/bin/bench --site all list-apps --format json
+2023-09-11 08:01:27,128 INFO /usr/local/bin/bench --site erpnext list-apps
+2023-09-11 08:01:27,814 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip uninstall -y payments
+2023-09-11 08:01:28,190 INFO App moved from apps/payments to archived/apps/payments-2023-09-11
+2023-09-11 08:01:28,192 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-11 08:01:57,038 INFO /usr/local/bin/bench get-app payments
+2023-09-11 08:01:57,633 LOG Getting payments
+2023-09-11 08:01:57,633 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git   --origin upstream
+2023-09-11 08:01:58,977 LOG Installing payments
+2023-09-11 08:01:59,113 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/payments 
+2023-09-11 08:02:00,472 DEBUG bench build --app payments
+2023-09-11 08:02:00,568 INFO /usr/local/bin/bench build --app payments
+2023-09-11 08:02:04,820 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-11 08:02:43,456 INFO /usr/local/bin/bench uninstall-app hrms
+2023-09-11 08:03:20,422 INFO /usr/local/bin/bench uninstall-app hrms --force
+2023-09-11 08:04:25,847 INFO /usr/local/bin/bench list-apps
+2023-09-11 08:04:45,582 INFO /usr/local/bin/bench uninstall-app hrms
+2023-09-11 08:06:14,799 INFO /usr/local/bin/bench start
+2023-09-11 08:06:14,977 INFO /usr/local/bin/bench schedule
+2023-09-11 08:06:14,983 INFO /usr/local/bin/bench worker
+2023-09-11 08:06:14,993 INFO /usr/local/bin/bench serve --port 8000
+2023-09-11 08:06:14,996 INFO /usr/local/bin/bench watch
+2023-09-11 08:06:31,071 INFO /usr/local/bin/bench uninstall-app hrms
+2023-09-11 08:07:02,982 INFO /usr/local/bin/bench migrate
+2023-09-11 08:07:28,358 INFO /usr/local/bin/bench uninstall-app payments
+2023-09-11 08:08:39,525 INFO /usr/local/bin/bench list-apps
+2023-09-11 08:08:49,911 INFO /usr/local/bin/bench --site erpnext list-apps
+2023-09-11 08:10:19,074 INFO /usr/local/bin/bench get-app payments
+2023-09-11 08:10:20,465 INFO App moved from apps/payments to archived/apps/payments-2023-09-11_1
+2023-09-11 08:10:20,465 LOG Getting payments
+2023-09-11 08:10:20,465 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git --branch develop  --origin upstream
+2023-09-11 08:10:21,831 LOG Installing payments
+2023-09-11 08:10:21,984 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/payments 
+2023-09-11 08:10:23,360 DEBUG bench build --app payments
+2023-09-11 08:10:23,442 INFO /usr/local/bin/bench build --app payments
+2023-09-11 08:10:27,651 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-11 08:10:47,035 INFO /usr/local/bin/bench get-app --branch version-14 hrms
+2023-09-11 08:10:48,248 INFO App moved from apps/hrms to archived/apps/hrms-2023-09-11_1
+2023-09-11 08:10:48,249 LOG Getting hrms
+2023-09-11 08:10:48,249 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch version-14  --origin upstream
+2023-09-11 08:10:55,336 LOG Installing hrms
+2023-09-11 08:10:55,471 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/hrms 
+2023-09-11 08:10:57,720 DEBUG bench build --app hrms
+2023-09-11 08:10:57,793 INFO /usr/local/bin/bench build --app hrms
+2023-09-11 08:11:02,298 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-11 08:11:16,794 INFO /usr/local/bin/bench --site erpnext install-app hrms
+2023-09-11 08:11:45,930 INFO /usr/local/bin/bench start
+2023-09-11 08:11:46,088 INFO /usr/local/bin/bench watch
+2023-09-11 08:11:46,089 INFO /usr/local/bin/bench schedule
+2023-09-11 08:11:46,089 INFO /usr/local/bin/bench serve --port 8000
+2023-09-11 08:11:46,110 INFO /usr/local/bin/bench worker
+2023-09-11 08:12:12,794 INFO /usr/local/bin/bench migrate
+2023-09-11 12:00:01,569 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-11 18:00:01,898 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-12 00:00:01,933 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-12 06:00:01,908 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-12 12:00:02,015 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-12 18:00:01,989 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-13 00:00:01,201 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-13 06:00:01,257 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-13 12:00:01,353 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-13 18:00:01,513 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-14 00:00:01,785 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-14 06:00:01,200 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-14 12:00:01,678 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-14 18:00:01,107 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-15 00:00:01,567 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-15 06:00:01,790 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-15 11:54:53,441 INFO /usr/local/bin/bench migrate
+2023-09-15 11:57:16,978 INFO /usr/local/bin/bench migrate
+2023-09-15 11:59:05,431 INFO /usr/local/bin/bench migrate
+2023-09-15 12:00:01,235 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-15 12:00:21,014 INFO /usr/local/bin/bench migrate
+2023-09-15 12:00:53,139 INFO /usr/local/bin/bench migrate
+2023-09-15 12:01:25,273 INFO /usr/local/bin/bench migrate
+2023-09-15 12:02:49,449 INFO /usr/local/bin/bench migrate
+2023-09-15 12:03:24,786 INFO /usr/local/bin/bench migrate
+2023-09-15 18:00:01,502 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-16 00:00:01,996 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-16 06:00:01,338 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-16 12:00:01,727 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-16 18:00:01,956 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-17 00:00:01,320 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-17 06:00:01,701 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-17 12:00:01,316 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-17 18:00:01,620 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-18 00:00:01,092 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-18 06:00:01,379 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-18 12:00:01,862 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-18 18:00:01,130 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-19 00:00:01,461 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-19 06:00:01,832 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-19 09:32:34,250 INFO /usr/local/bin/bench migrate
+2023-09-19 12:00:01,194 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-19 18:00:01,530 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-20 00:00:02,060 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-20 06:00:01,358 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-20 12:00:01,668 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-20 18:00:01,936 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-21 00:00:01,412 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-21 06:00:01,803 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-21 08:47:23,451 INFO /usr/local/bin/bench start
+2023-09-21 08:47:23,682 INFO /usr/local/bin/bench serve --port 8000
+2023-09-21 08:47:23,683 INFO /usr/local/bin/bench schedule
+2023-09-21 08:47:23,683 INFO /usr/local/bin/bench worker
+2023-09-21 08:47:23,685 INFO /usr/local/bin/bench watch
+2023-09-21 12:00:01,503 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-21 18:00:01,109 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-22 00:00:01,611 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-22 06:00:01,845 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-22 12:00:01,107 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-25 07:58:01,473 INFO /usr/local/bin/bench start
+2023-09-25 07:58:01,680 INFO /usr/local/bin/bench worker
+2023-09-25 07:58:01,680 INFO /usr/local/bin/bench serve --port 8000
+2023-09-25 07:58:01,681 INFO /usr/local/bin/bench schedule
+2023-09-25 07:58:01,682 INFO /usr/local/bin/bench watch
+2023-09-25 12:00:01,960 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-25 18:00:01,453 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-26 00:00:01,884 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-26 06:00:01,116 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-26 12:00:01,543 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-26 13:33:35,987 INFO /usr/local/bin/bench get-app education
+2023-09-26 13:33:36,571 LOG Getting education
+2023-09-26 13:33:36,571 DEBUG cd ./apps && git clone https://github.com/frappe/education.git   --origin upstream
+2023-09-26 13:33:38,052 LOG Installing education
+2023-09-26 13:33:38,183 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/education 
+2023-09-26 13:33:39,961 DEBUG bench build --app education
+2023-09-26 13:33:40,030 INFO /usr/local/bin/bench build --app education
+2023-09-26 13:33:44,144 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-26 13:33:59,716 INFO /usr/local/bin/bench --site erpnext install-app education
+2023-09-26 13:34:12,130 INFO /usr/local/bin/bench migrate
+2023-09-26 13:34:16,912 INFO /usr/local/bin/bench start
+2023-09-26 13:34:17,084 INFO /usr/local/bin/bench worker
+2023-09-26 13:34:17,087 INFO /usr/local/bin/bench serve --port 8000
+2023-09-26 13:34:17,091 INFO /usr/local/bin/bench schedule
+2023-09-26 13:34:17,096 INFO /usr/local/bin/bench watch
+2023-09-26 18:00:01,947 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-27 00:00:01,516 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-27 06:00:01,977 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-27 12:00:01,432 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-27 14:58:46,724 INFO /usr/local/bin/bench migrate
+2023-09-27 15:05:59,544 INFO /usr/local/bin/bench migrate
+2023-09-27 15:10:39,540 INFO /usr/local/bin/bench migrate
+2023-09-27 15:12:57,559 INFO /usr/local/bin/bench migrate
+2023-09-27 15:36:53,285 INFO /usr/local/bin/bench migrate
+2023-09-27 15:40:08,324 INFO /usr/local/bin/bench migrate
+2023-09-27 16:12:56,896 INFO /usr/local/bin/bench migrate
+2023-09-27 18:00:01,764 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-28 07:35:19,949 INFO /usr/local/bin/bench start
+2023-09-28 07:35:20,258 INFO /usr/local/bin/bench serve --port 8000
+2023-09-28 07:35:20,259 INFO /usr/local/bin/bench watch
+2023-09-28 07:35:20,263 INFO /usr/local/bin/bench worker
+2023-09-28 07:35:20,268 INFO /usr/local/bin/bench schedule
+2023-09-28 12:00:02,106 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-28 18:00:01,385 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-29 00:00:01,147 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-29 06:00:01,592 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-29 12:00:01,194 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-29 13:14:08,332 INFO /usr/local/bin/bench migrate
+2023-09-29 13:24:14,109 INFO /usr/local/bin/bench migrate
+2023-09-29 14:09:29,589 INFO /usr/local/bin/bench migrate
+2023-09-29 14:10:21,373 INFO /usr/local/bin/bench migrate
+2023-09-29 18:00:01,724 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-02 09:21:01,844 INFO /usr/local/bin/bench migrate
+2023-10-02 12:00:01,218 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-02 18:00:01,387 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-03 12:00:01,779 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-03 18:00:01,772 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-04 12:00:01,190 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-04 14:01:06,214 INFO /usr/local/bin/bench start
+2023-10-04 14:01:06,408 INFO /usr/local/bin/bench schedule
+2023-10-04 14:01:06,415 INFO /usr/local/bin/bench watch
+2023-10-04 14:01:06,415 INFO /usr/local/bin/bench serve --port 8000
+2023-10-04 14:01:06,418 INFO /usr/local/bin/bench worker
+2023-10-04 14:14:22,860 INFO /usr/local/bin/bench start
+2023-10-04 14:14:23,055 INFO /usr/local/bin/bench serve --port 8000
+2023-10-04 14:14:23,056 INFO /usr/local/bin/bench schedule
+2023-10-04 14:14:23,057 INFO /usr/local/bin/bench watch
+2023-10-04 14:14:23,059 INFO /usr/local/bin/bench worker
+2023-10-04 18:00:01,244 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-05 12:00:01,277 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-05 18:00:01,495 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-06 11:33:58,884 INFO /usr/local/bin/bench new-site crm
+2023-10-06 11:35:03,473 INFO /usr/local/bin/bench get-app crm
+2023-10-06 11:35:04,218 LOG Getting crm
+2023-10-06 11:35:04,218 DEBUG cd ./apps && git clone https://github.com/frappe/crm.git   --origin upstream
+2023-10-06 11:35:13,763 LOG Installing crm
+2023-10-06 11:35:13,905 DEBUG cd /home/erp/frappe-bench && /home/erp/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp/frappe-bench/apps/crm 
+2023-10-06 11:35:21,462 DEBUG cd /home/erp/frappe-bench/apps/crm && yarn install
+2023-10-06 11:35:46,786 DEBUG bench build --app crm
+2023-10-06 11:35:46,858 INFO /usr/local/bin/bench build --app crm
+2023-10-06 11:35:56,697 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-10-06 11:36:23,885 INFO /usr/local/bin/bench --site crm install-app crm
+2023-10-06 11:36:39,260 INFO /usr/local/bin/bench --site crm add-to-hosts
+2023-10-06 11:37:01,038 INFO /usr/local/bin/bench --site crm browse --user Administrator
+2023-10-06 11:37:26,716 INFO /usr/local/bin/bench start
+2023-10-06 11:37:26,925 INFO /usr/local/bin/bench worker
+2023-10-06 11:37:26,925 INFO /usr/local/bin/bench schedule
+2023-10-06 11:37:26,926 INFO /usr/local/bin/bench serve --port 8000
+2023-10-06 11:37:26,928 INFO /usr/local/bin/bench watch
+2023-10-06 11:37:55,290 INFO /usr/local/bin/bench start
+2023-10-06 11:48:52,988 INFO /usr/local/bin/bench start
+2023-10-06 11:48:53,167 INFO /usr/local/bin/bench worker
+2023-10-06 11:48:53,167 INFO /usr/local/bin/bench serve --port 8000
+2023-10-06 11:48:53,168 INFO /usr/local/bin/bench watch
+2023-10-06 11:48:53,175 INFO /usr/local/bin/bench schedule
+2023-10-06 11:56:48,141 INFO /usr/local/bin/bench start
+2023-10-06 11:56:48,336 INFO /usr/local/bin/bench schedule
+2023-10-06 11:56:48,341 INFO /usr/local/bin/bench worker
+2023-10-06 11:56:48,341 INFO /usr/local/bin/bench serve --port 8000
+2023-10-06 11:56:48,345 INFO /usr/local/bin/bench watch
+2023-10-06 12:00:01,893 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-06 12:11:32,551 INFO /usr/local/bin/bench --site crm add-to-hosts
+2023-10-06 12:12:54,050 INFO /usr/local/bin/bench --site crm browse --user Administrator
+2023-10-06 12:14:00,612 INFO /usr/local/bin/bench --site crm browse --user Administrator
+2023-10-09 07:51:01,653 INFO /usr/local/bin/bench start
+2023-10-09 07:51:01,889 INFO /usr/local/bin/bench worker
+2023-10-09 07:51:01,895 INFO /usr/local/bin/bench watch
+2023-10-09 07:51:01,895 INFO /usr/local/bin/bench serve --port 8000
+2023-10-09 07:51:01,899 INFO /usr/local/bin/bench schedule
+2023-10-09 12:00:01,945 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-09 17:20:08,212 INFO /usr/local/bin/bench mariadb
+2023-10-09 17:25:42,553 INFO /usr/local/bin/bench mariadb
+2023-10-09 18:00:01,386 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-10 00:00:01,337 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-10 06:00:01,319 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-10 09:30:21,808 INFO /usr/local/bin/bench mariadb
+2023-10-10 10:33:38,151 INFO /usr/local/bin/bench mariadb
+2023-10-10 12:00:01,243 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-10 17:22:43,133 INFO /usr/local/bin/bench mariadb
+2023-10-10 18:00:01,884 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-11 00:00:01,890 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-11 06:00:01,658 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-11 12:00:01,520 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-11 15:48:11,679 INFO /usr/local/bin/bench set-config -g developer_mode 1
+2023-10-11 15:48:14,937 INFO /usr/local/bin/bench start
+2023-10-11 15:48:15,119 INFO /usr/local/bin/bench serve --port 8000
+2023-10-11 15:48:15,126 INFO /usr/local/bin/bench watch
+2023-10-11 15:48:15,126 INFO /usr/local/bin/bench schedule
+2023-10-11 15:48:15,129 INFO /usr/local/bin/bench worker
+2023-10-11 18:00:01,462 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-12 00:00:01,602 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-12 06:00:01,538 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-12 07:48:47,683 INFO /usr/local/bin/bench migrate
+2023-10-12 07:49:13,919 INFO /usr/local/bin/bench migrate
+2023-10-12 07:53:04,703 INFO /usr/local/bin/bench migrate
+2023-10-12 07:58:16,595 INFO /usr/local/bin/bench migrate
+2023-10-12 08:00:09,006 INFO /usr/local/bin/bench update
+2023-10-12 08:00:14,146 WARNING /usr/local/bin/bench update executed with exit code 1
+2023-10-12 08:01:55,565 INFO /usr/local/bin/bench migrate
+2023-10-12 08:03:25,807 INFO /usr/local/bin/bench migrate
+2023-10-12 12:00:01,670 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-12 16:33:43,145 INFO /usr/local/bin/bench migrate
+2023-10-12 16:40:45,535 INFO /usr/local/bin/bench migrate
+2023-10-12 16:41:29,383 INFO /usr/local/bin/bench start
+2023-10-12 16:41:29,574 INFO /usr/local/bin/bench worker
+2023-10-12 16:41:29,577 INFO /usr/local/bin/bench watch
+2023-10-12 16:41:29,580 INFO /usr/local/bin/bench schedule
+2023-10-12 16:41:29,581 INFO /usr/local/bin/bench serve --port 8000
+2023-10-12 16:42:35,151 INFO /usr/local/bin/bench migrate
+2023-10-12 18:00:02,076 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-13 00:00:01,375 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-13 06:00:01,270 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-13 09:57:26,805 INFO /usr/local/bin/bench migrate
+2023-10-13 09:58:25,202 INFO /usr/local/bin/bench migrate
+2023-10-13 09:58:58,633 INFO /usr/local/bin/bench --site erpnext enable-scheduler
+2023-10-13 09:59:12,774 INFO /usr/local/bin/bench --site erpnext clear-cache
+2023-10-13 09:59:20,532 INFO /usr/local/bin/bench --site erpnext clear-website-cache
+2023-10-13 09:59:27,029 INFO /usr/local/bin/bench --site erpnext migrate
+2023-10-13 10:00:17,006 INFO /usr/local/bin/bench --site erpnext set-config pause_scheduler 0
+2023-10-13 10:00:21,936 INFO /usr/local/bin/bench migrate
+2023-10-13 11:14:17,853 INFO /usr/local/bin/bench migrate
+2023-10-13 11:15:25,400 INFO /usr/local/bin/bench migrate
+2023-10-13 11:16:09,451 INFO /usr/local/bin/bench version
+2023-10-13 12:00:01,438 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-13 14:23:10,106 INFO /usr/local/bin/bench maria
+2023-10-13 14:23:15,058 INFO /usr/local/bin/bench mariadb
+2023-10-13 14:47:08,297 INFO /usr/local/bin/bench migrate
+2023-10-13 14:49:26,431 INFO /usr/local/bin/bench migrate
+2023-10-13 14:52:07,201 INFO /usr/local/bin/bench migrate
+2023-10-13 14:52:42,818 INFO /usr/local/bin/bench migrate
+2023-10-13 18:00:01,550 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-14 00:00:01,388 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-14 06:00:01,321 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-14 12:00:01,203 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-14 18:00:01,363 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-15 00:00:01,329 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-15 06:00:01,284 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-15 12:00:01,295 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-15 18:00:01,152 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-16 00:00:01,163 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-16 06:00:01,962 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-16 12:00:01,866 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-16 18:00:01,885 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-17 00:00:01,898 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-17 06:00:01,824 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-17 12:00:01,900 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-17 18:00:01,833 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-18 00:00:01,759 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-18 06:00:01,984 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-18 12:00:01,840 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-18 18:00:01,800 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-19 00:00:01,966 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-19 06:00:01,929 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-19 12:00:01,239 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-19 18:00:01,310 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-20 00:00:01,499 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-20 06:00:01,632 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-20 12:00:01,605 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-20 18:00:01,665 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-21 00:00:01,448 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-21 06:00:01,270 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-21 12:00:02,052 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-21 18:00:01,296 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-22 00:00:01,341 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-22 06:00:01,385 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-22 12:00:01,211 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-22 18:00:01,349 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-23 00:00:01,497 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-23 06:00:01,339 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-23 08:02:14,101 INFO /usr/local/bin/bench start
+2023-10-23 08:02:14,316 INFO /usr/local/bin/bench serve --port 8000
+2023-10-23 08:02:14,318 INFO /usr/local/bin/bench schedule
+2023-10-23 08:02:14,324 INFO /usr/local/bin/bench worker
+2023-10-23 08:02:14,325 INFO /usr/local/bin/bench watch
+2023-10-23 09:57:29,382 INFO /usr/local/bin/bench migrate
+2023-10-23 09:59:07,038 INFO /usr/local/bin/bench migrate
+2023-10-23 12:00:01,245 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-23 18:00:01,910 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-24 12:00:01,769 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-24 18:00:01,696 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-25 12:00:01,700 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-25 13:42:21,639 INFO /usr/local/bin/bench migrate
+2023-10-25 14:26:30,681 INFO /usr/local/bin/bench migrate
+2023-10-25 18:00:01,268 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-26 09:45:35,031 INFO /usr/local/bin/bench migrate
+2023-10-26 09:46:11,089 INFO /usr/local/bin/bench migrate
+2023-10-26 10:05:04,692 INFO /usr/local/bin/bench migrate
+2023-10-26 12:00:01,111 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-26 14:06:07,715 INFO /usr/local/bin/bench migrate
+2023-10-26 18:00:01,231 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-27 00:00:01,691 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-27 06:00:01,107 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-27 12:00:01,424 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-30 07:41:18,997 INFO /usr/local/bin/bench start
+2023-10-30 07:41:19,206 INFO /usr/local/bin/bench watch
+2023-10-30 07:41:19,210 INFO /usr/local/bin/bench worker
+2023-10-30 07:41:19,213 INFO /usr/local/bin/bench schedule
+2023-10-30 07:41:19,219 INFO /usr/local/bin/bench serve --port 8000
+2023-10-30 12:00:01,642 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-30 18:00:01,283 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-31 12:00:01,685 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-31 18:00:01,380 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-02 10:26:59,189 INFO /usr/local/bin/bench version
+2023-11-02 12:00:02,051 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-02 18:00:01,350 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-03 12:00:01,869 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-06 12:00:01,889 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-06 18:00:01,814 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-07 12:00:02,038 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-07 18:00:02,050 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-08 12:00:01,331 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-08 18:00:01,942 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-09 12:00:01,268 INFO /usr/local/bin/bench --verbose --site all backup

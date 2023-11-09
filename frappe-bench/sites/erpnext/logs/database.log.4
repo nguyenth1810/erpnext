@@ -1,0 +1,1522 @@
+2023-09-11 08:11:26,629 WARNING database DDL Query made to DB:
+create table `tabPayroll Employee Detail` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`employee` varchar(140),
+`employee_name` varchar(140),
+`department` varchar(140),
+`designation` varchar(140),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:26,717 WARNING database DDL Query made to DB:
+create table `tabSalary Component` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`salary_component` varchar(140) unique,
+`salary_component_abbr` varchar(140),
+`type` varchar(140),
+`description` text,
+`depends_on_payment_days` int(1) not null default 1,
+`is_tax_applicable` int(1) not null default 1,
+`deduct_full_tax_on_selected_payroll_date` int(1) not null default 0,
+`variable_based_on_taxable_salary` int(1) not null default 0,
+`is_income_tax_component` int(1) not null default 0,
+`exempted_from_income_tax` int(1) not null default 0,
+`round_to_the_nearest_integer` int(1) not null default 0,
+`statistical_component` int(1) not null default 0,
+`do_not_include_in_total` int(1) not null default 0,
+`remove_if_zero_valued` int(1) not null default 1,
+`disabled` int(1) not null default 0,
+`condition` longtext,
+`amount` decimal(21,9) not null default 0,
+`amount_based_on_formula` int(1) not null default 0,
+`formula` longtext,
+`is_flexible_benefit` int(1) not null default 0,
+`max_benefit_amount` decimal(21,9) not null default 0,
+`pay_against_benefit_claim` int(1) not null default 0,
+`only_tax_impact` int(1) not null default 0,
+`create_separate_payment_entry_against_benefit_claim` int(1) not null default 0,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `variable_based_on_taxable_salary`(`variable_based_on_taxable_salary`),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:26,785 WARNING database DDL Query made to DB:
+create table `tabEmployee Other Income` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`employee` varchar(140),
+`employee_name` varchar(140),
+`amended_from` varchar(140),
+`company` varchar(140),
+`payroll_period` varchar(140),
+`source` varchar(140),
+`amount` decimal(21,9) not null default 0,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:26,883 WARNING database DDL Query made to DB:
+create table `tabPayroll Entry` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`posting_date` date,
+`payroll_frequency` varchar(140),
+`company` varchar(140),
+`currency` varchar(140),
+`exchange_rate` decimal(21,9) not null default 0,
+`payroll_payable_account` varchar(140),
+`status` varchar(140),
+`start_date` date,
+`end_date` date,
+`salary_slip_based_on_timesheet` int(1) not null default 0,
+`deduct_tax_for_unclaimed_employee_benefits` int(1) not null default 0,
+`deduct_tax_for_unsubmitted_tax_exemption_proof` int(1) not null default 0,
+`branch` varchar(140),
+`department` varchar(140),
+`designation` varchar(140),
+`number_of_employees` int(11) not null default 0,
+`validate_attendance` int(1) not null default 0,
+`cost_center` varchar(140),
+`project` varchar(140),
+`payment_account` varchar(140),
+`bank_account` varchar(140),
+`salary_slips_created` int(1) not null default 0,
+`salary_slips_submitted` int(1) not null default 0,
+`error_message` text,
+`amended_from` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:26,967 WARNING database DDL Query made to DB:
+create table `tabSalary Structure Assignment` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`employee` varchar(140),
+`employee_name` varchar(140),
+`department` varchar(140),
+`designation` varchar(140),
+`grade` varchar(140),
+`salary_structure` varchar(140),
+`from_date` date,
+`income_tax_slab` varchar(140),
+`company` varchar(140),
+`payroll_payable_account` varchar(140),
+`currency` varchar(140),
+`base` decimal(21,9) not null default 0,
+`variable` decimal(21,9) not null default 0,
+`amended_from` varchar(140),
+`taxable_earnings_till_date` decimal(21,9) not null default 0,
+`tax_deducted_till_date` decimal(21,9) not null default 0,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `employee`(`employee`),
+index `salary_structure`(`salary_structure`),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,034 WARNING database DDL Query made to DB:
+create table `tabGratuity Applicable Component` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`salary_component` varchar(140),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,112 WARNING database DDL Query made to DB:
+create table `tabEmployee Tax Exemption Declaration` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`employee` varchar(140),
+`employee_name` varchar(140),
+`department` varchar(140),
+`company` varchar(140),
+`payroll_period` varchar(140),
+`currency` varchar(140),
+`amended_from` varchar(140),
+`total_declared_amount` decimal(21,9) not null default 0,
+`total_exemption_amount` decimal(21,9) not null default 0,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,236 WARNING database DDL Query made to DB:
+create table `tabPayroll Period Date` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`start_date` date,
+`end_date` date,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,289 WARNING database DDL Query made to DB:
+create table `tabGratuity Rule Slab` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`from_year` int(11) not null default 0,
+`to_year` int(11) not null default 0,
+`fraction_of_applicable_earnings` decimal(21,9) not null default 0,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,341 WARNING database DDL Query made to DB:
+create table `tabSalary Slip Timesheet` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`time_sheet` varchar(140),
+`working_hours` decimal(21,9) not null default 0,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,391 WARNING database DDL Query made to DB:
+create table `tabEmployee Cost Center` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`cost_center` varchar(140),
+`percentage` int(11) not null default 0,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,460 WARNING database DDL Query made to DB:
+create table `tabEmployee Benefit Application` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`employee` varchar(140),
+`employee_name` varchar(140),
+`department` varchar(140),
+`date` date,
+`payroll_period` varchar(140),
+`company` varchar(140),
+`amended_from` varchar(140),
+`currency` varchar(140),
+`max_benefits` decimal(21,9) not null default 0,
+`remaining_benefit` decimal(21,9) not null default 0,
+`total_amount` decimal(21,9) not null default 0,
+`pro_rata_dispensed_amount` decimal(21,9) not null default 0,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,539 WARNING database DDL Query made to DB:
+create table `tabPayroll Period` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`company` varchar(140),
+`start_date` date,
+`end_date` date,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,615 WARNING database DDL Query made to DB:
+create table `tabEmployee Benefit Claim` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`employee` varchar(140),
+`employee_name` varchar(140),
+`department` varchar(140),
+`claim_date` date,
+`currency` varchar(140),
+`company` varchar(140),
+`amended_from` varchar(140),
+`earning_component` varchar(140),
+`max_amount_eligible` decimal(21,9) not null default 0,
+`pay_against_benefit_claim` int(1) not null default 0,
+`claimed_amount` decimal(21,9) not null default 0,
+`salary_slip` varchar(140),
+`attachments` text,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,694 WARNING database DDL Query made to DB:
+create table `tabRetention Bonus` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`employee` varchar(140),
+`employee_name` varchar(140),
+`department` varchar(140),
+`company` varchar(140),
+`date_of_joining` varchar(140),
+`salary_component` varchar(140),
+`bonus_amount` decimal(21,9) not null default 0,
+`bonus_payment_date` date,
+`currency` varchar(140),
+`amended_from` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,791 WARNING database DDL Query made to DB:
+create table `tabSalary Structure` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`company` varchar(140),
+`letter_head` varchar(140),
+`is_active` varchar(140) default 'Yes',
+`is_default` varchar(140) default 'No',
+`payroll_frequency` varchar(140) default 'Monthly',
+`currency` varchar(140),
+`amended_from` varchar(140),
+`leave_encashment_amount_per_day` decimal(21,9) not null default 0,
+`max_benefits` decimal(21,9) not null default 0,
+`salary_slip_based_on_timesheet` int(1) not null default 0,
+`salary_component` varchar(140),
+`hour_rate` decimal(21,9) not null default 0,
+`total_earning` decimal(21,9) not null default 0,
+`total_deduction` decimal(21,9) not null default 0,
+`net_pay` decimal(21,9) not null default 0,
+`mode_of_payment` varchar(140),
+`payment_account` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:27,941 WARNING database DDL Query made to DB:
+create table `tabSalary Slip` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`employee` varchar(140),
+`employee_name` varchar(140),
+`department` varchar(140),
+`designation` varchar(140),
+`branch` varchar(140),
+`posting_date` date,
+`letter_head` varchar(140),
+`status` varchar(140),
+`company` varchar(140),
+`currency` varchar(140),
+`exchange_rate` decimal(21,9) not null default 1.0,
+`payroll_frequency` varchar(140),
+`start_date` date,
+`end_date` date,
+`salary_structure` varchar(140),
+`payroll_entry` varchar(140),
+`mode_of_payment` varchar(140),
+`salary_slip_based_on_timesheet` int(1) not null default 0,
+`deduct_tax_for_unclaimed_employee_benefits` int(1) not null default 0,
+`deduct_tax_for_unsubmitted_tax_exemption_proof` int(1) not null default 0,
+`total_working_days` decimal(21,9) not null default 0,
+`unmarked_days` decimal(21,9) not null default 0,
+`leave_without_pay` decimal(21,9) not null default 0,
+`absent_days` decimal(21,9) not null default 0,
+`payment_days` decimal(21,9) not null default 0,
+`total_working_hours` decimal(21,9) not null default 0,
+`hour_rate` decimal(21,9) not null default 0,
+`base_hour_rate` decimal(21,9) not null default 0,
+`gross_pay` decimal(21,9) not null default 0,
+`base_gross_pay` decimal(21,9) not null default 0,
+`gross_year_to_date` decimal(21,9) not null default 0,
+`base_gross_year_to_date` decimal(21,9) not null default 0,
+`total_deduction` decimal(21,9) not null default 0,
+`base_total_deduction` decimal(21,9) not null default 0,
+`total_principal_amount` decimal(21,9) not null default 0,
+`total_interest_amount` decimal(21,9) not null default 0,
+`total_loan_repayment` decimal(21,9) not null default 0,
+`net_pay` decimal(21,9) not null default 0,
+`base_net_pay` decimal(21,9) not null default 0,
+`rounded_total` decimal(21,9) not null default 0,
+`base_rounded_total` decimal(21,9) not null default 0,
+`year_to_date` decimal(21,9) not null default 0,
+`base_year_to_date` decimal(21,9) not null default 0,
+`month_to_date` decimal(21,9) not null default 0,
+`base_month_to_date` decimal(21,9) not null default 0,
+`total_in_words` varchar(240),
+`base_total_in_words` varchar(240),
+`ctc` decimal(21,9) not null default 0,
+`income_from_other_sources` decimal(21,9) not null default 0,
+`total_earnings` decimal(21,9) not null default 0,
+`non_taxable_earnings` decimal(21,9) not null default 0,
+`standard_tax_exemption_amount` decimal(21,9) not null default 0,
+`tax_exemption_declaration` decimal(21,9) not null default 0,
+`deductions_before_tax_calculation` decimal(21,9) not null default 0,
+`annual_taxable_amount` decimal(21,9) not null default 0,
+`income_tax_deducted_till_date` decimal(21,9) not null default 0,
+`current_month_income_tax` decimal(21,9) not null default 0,
+`future_income_tax_deductions` decimal(21,9) not null default 0,
+`total_income_tax` decimal(21,9) not null default 0,
+`journal_entry` varchar(140),
+`amended_from` varchar(140),
+`bank_name` varchar(140),
+`bank_account_no` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `employee`(`employee`),
+index `salary_structure`(`salary_structure`),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:28,041 WARNING database DDL Query made to DB:
+create table `tabEmployee Incentive` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`employee` varchar(140),
+`employee_name` varchar(140),
+`amended_from` varchar(140),
+`company` varchar(140),
+`department` varchar(140),
+`salary_component` varchar(140),
+`currency` varchar(140),
+`payroll_date` date,
+`incentive_amount` decimal(21,9) not null default 0,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:28,122 WARNING database DDL Query made to DB:
+create table `tabIncome Tax Slab` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`disabled` int(1) not null default 0,
+`effective_from` date,
+`company` varchar(140),
+`currency` varchar(140),
+`standard_tax_exemption_amount` decimal(21,9) not null default 0,
+`allow_tax_exemption` int(1) not null default 0,
+`amended_from` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:28,211 WARNING database DDL Query made to DB:
+create table `tabGratuity` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`employee` varchar(140),
+`employee_name` varchar(140),
+`department` varchar(140),
+`designation` varchar(140),
+`current_work_experience` int(11) not null default 0,
+`posting_date` date,
+`gratuity_rule` varchar(140),
+`status` varchar(140) default 'Draft',
+`company` varchar(140),
+`amended_from` varchar(140),
+`pay_via_salary_slip` int(1) not null default 1,
+`amount` decimal(21,9) not null default 0,
+`paid_amount` decimal(21,9) not null default 0,
+`payroll_date` date,
+`salary_component` varchar(140),
+`cost_center` varchar(140),
+`mode_of_payment` varchar(140),
+`expense_account` varchar(140),
+`payable_account` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `employee`(`employee`),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 08:11:31,004 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-11 08:11:31,058 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTask` MODIFY `total_billing_amount` decimal(21,9) not null default 0, MODIFY `total_costing_amount` decimal(21,9) not null default 0, MODIFY `progress` decimal(21,9) not null default 0, MODIFY `actual_time` decimal(21,9) not null default 0, MODIFY `task_weight` decimal(21,9) not null default 0, MODIFY `total_expense_claim` decimal(21,9) not null default 0
+2023-09-11 08:11:31,102 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCompany` MODIFY `credit_limit` decimal(21,9) not null default 0, MODIFY `total_monthly_sales` decimal(21,9) not null default 0, MODIFY `monthly_sales_target` decimal(21,9) not null default 0
+2023-09-11 08:11:31,138 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan` ADD COLUMN `repay_from_salary` int(1) not null default 0
+2023-09-11 08:11:31,149 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan` MODIFY `total_principal_paid` decimal(21,9) not null default 0, MODIFY `rate_of_interest` decimal(21,9) not null default 0, MODIFY `total_amount_paid` decimal(21,9) not null default 0, MODIFY `credit_adjustment_amount` decimal(21,9) not null default 0, MODIFY `written_off_amount` decimal(21,9) not null default 0, MODIFY `maximum_loan_amount` decimal(21,9) not null default 0, MODIFY `debit_adjustment_amount` decimal(21,9) not null default 0, MODIFY `refund_amount` decimal(21,9) not null default 0, MODIFY `loan_amount` decimal(21,9) not null default 0, MODIFY `disbursed_amount` decimal(21,9) not null default 0, MODIFY `monthly_repayment_amount` decimal(21,9) not null default 0
+2023-09-11 08:11:31,187 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject` MODIFY `total_purchase_cost` decimal(21,9) not null default 0, MODIFY `percent_complete` decimal(21,9) not null default 0, MODIFY `total_expense_claim` decimal(21,9) not null default 0, MODIFY `total_costing_amount` decimal(21,9) not null default 0, MODIFY `total_billable_amount` decimal(21,9) not null default 0, MODIFY `actual_time` decimal(21,9) not null default 0, MODIFY `total_sales_amount` decimal(21,9) not null default 0, MODIFY `total_billed_amount` decimal(21,9) not null default 0, MODIFY `per_gross_margin` decimal(21,9) not null default 0, MODIFY `estimated_costing` decimal(21,9) not null default 0, MODIFY `gross_margin` decimal(21,9) not null default 0, MODIFY `total_consumed_material_cost` decimal(21,9) not null default 0
+2023-09-11 08:11:31,259 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTimesheet` MODIFY `total_billable_hours` decimal(21,9) not null default 0, MODIFY `total_costing_amount` decimal(21,9) not null default 0, MODIFY `base_total_billable_amount` decimal(21,9) not null default 0, MODIFY `base_total_costing_amount` decimal(21,9) not null default 0, MODIFY `base_total_billed_amount` decimal(21,9) not null default 0, MODIFY `total_billed_amount` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `total_billed_hours` decimal(21,9) not null default 0
+2023-09-11 08:11:31,293 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan Repayment` ADD COLUMN `repay_from_salary` int(1) not null default 0, ADD COLUMN `payroll_payable_account` varchar(140)
+2023-09-11 08:11:31,309 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan Repayment` MODIFY `shortfall_amount` decimal(21,9) not null default 0, MODIFY `pending_principal_amount` decimal(21,9) not null default 0, MODIFY `interest_payable` decimal(21,9) not null default 0, MODIFY `payable_principal_amount` decimal(21,9) not null default 0, MODIFY `rate_of_interest` decimal(21,9) not null default 0, MODIFY `penalty_amount` decimal(21,9) not null default 0, MODIFY `amount_paid` decimal(21,9) not null default 0, MODIFY `total_interest_paid` decimal(21,9) not null default 0, MODIFY `total_penalty_paid` decimal(21,9) not null default 0, MODIFY `payable_amount` decimal(21,9) not null default 0
+2023-09-11 14:36:40,321 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 14:38:11,253 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 15:18:22,825 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` ADD COLUMN `custom_vacancies` varchar(140)
+2023-09-11 15:18:22,837 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 15:18:22,932 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140)
+2023-09-11 15:57:06,116 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 15:57:33,535 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 15:57:38,000 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 17:00:04,737 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140)
+2023-09-11 17:00:15,207 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140)
+2023-09-11 17:02:21,613 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140)
+2023-09-11 17:04:42,941 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 17:14:23,213 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` ADD COLUMN `custom_định_biên` int(1) not null default 0
+2023-09-11 17:14:23,225 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 17:14:23,342 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` ADD COLUMN `custom_nguồn_tuyển` int(1) not null default 0
+2023-09-11 17:14:23,354 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 17:14:23,439 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140)
+2023-09-11 17:14:43,689 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140)
+2023-09-11 17:15:27,598 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 17:15:38,152 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 17:15:56,036 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 17:16:21,557 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140)
+2023-09-11 17:21:27,242 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 17:22:36,827 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `custom_định_biên` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 17:22:36,952 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `custom_nguồn_tuyển` varchar(140)
+2023-09-11 17:22:37,119 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` ADD COLUMN `custom_mục_đích_tuyển` varchar(140)
+2023-09-11 17:22:37,130 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140)
+2023-09-11 17:22:37,218 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 17:23:33,451 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 17:29:51,785 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140)
+2023-09-11 17:29:51,912 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` ADD COLUMN `custom_kênh_tuyển_dụng` varchar(140)
+2023-09-11 17:29:51,924 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 17:29:52,042 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` ADD COLUMN `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0
+2023-09-11 17:29:52,054 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140)
+2023-09-11 17:29:52,172 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` ADD COLUMN `custom_hình_thức_tuyển_dụng` varchar(140)
+2023-09-11 17:29:52,183 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0
+2023-09-11 17:29:52,266 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-11 17:32:58,585 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 17:35:31,061 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140)
+2023-09-11 17:35:31,161 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 17:36:08,670 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `status` varchar(140)
+2023-09-11 17:36:57,433 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 17:38:21,069 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` ADD COLUMN `custom_kiểm_soát_định_biên` varchar(140)
+2023-09-11 17:38:21,080 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 17:38:21,178 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9)
+2023-09-11 17:43:30,230 WARNING database DDL Query made to DB:
+create table `tabYeu cau tuyen dung` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`đơn_vị_yêu_cầu` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+`_seen` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 17:44:17,860 WARNING database DDL Query made to DB:
+RENAME TABLE `tabYeu cau tuyen dung` TO `tabBETA Job Requisition`
+2023-09-11 17:54:28,484 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` ADD COLUMN `requested_by_department` varchar(140), ADD COLUMN `number_of_positions` int(11) not null default 0, ADD COLUMN `allocation` varchar(140), ADD COLUMN `source` varchar(140), ADD COLUMN `purpose_of_requisition` varchar(140), ADD COLUMN `reason_of_requisition` text, ADD COLUMN `attachment` text
+2023-09-11 18:07:15,646 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` ADD COLUMN `hrjr_requested_by_department` varchar(140), ADD COLUMN `hrjr_number_of_positions` int(11) not null default 0, ADD COLUMN `hrjr_allocation` varchar(140), ADD COLUMN `hrjr_source` varchar(140), ADD COLUMN `hrjr_purpose_of_requisition` varchar(140), ADD COLUMN `hrjr_reason_of_requisition` text, ADD COLUMN `hrjr_attachment` text, ADD COLUMN `hrjr_hr_department_section` varchar(140), ADD COLUMN `hrjr_allocation_control` varchar(140), ADD COLUMN `hrjr_channel` varchar(140), ADD COLUMN `hrjr_expenses` decimal(21,9) not null default 0, ADD COLUMN `hrjr_methods` varchar(140), ADD COLUMN `hrjr_date_of_examination` date
+2023-09-11 18:12:31,455 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:13:27,652 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` ADD COLUMN `hrjr_date_of_interview` date
+2023-09-11 18:13:27,665 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:13:50,210 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:14:27,896 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:19:09,869 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:19:56,178 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:23:53,656 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` ADD COLUMN `hrjr_designation` varchar(140)
+2023-09-11 18:23:53,667 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:24:07,102 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:29:51,756 WARNING database DDL Query made to DB:
+create table `tabYCTD_Requisition_Section_Table` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`hrjr_designation` varchar(140),
+`hrjr_number_of_positions` int(11) not null default 0,
+`hrjr_source` varchar(140),
+`hrjr_allocation` varchar(140),
+`hrjr_purpose` varchar(140),
+`hrjr_onboard_date` date,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 18:31:41,315 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:31:59,204 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:32:07,854 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:32:17,428 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:34:10,580 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:51:22,224 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` ADD COLUMN `hrjr_designationhrjr_designation` varchar(140), ADD COLUMN `hrjr_purpose` varchar(140), ADD COLUMN `hrjr_onboard_date` date
+2023-09-11 18:51:22,237 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:51:48,920 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:52:19,880 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:56:18,853 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` ADD COLUMN `mô_tả_công_việc` text
+2023-09-11 18:56:18,865 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 18:57:03,685 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Requisition` MODIFY `hrjr_expenses` decimal(21,9) not null default 0
+2023-09-11 19:05:43,851 WARNING database DDL Query made to DB:
+create table `tabBETA Job Opening` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`hrjo_company` varchar(140),
+`hrjo_status` varchar(140),
+`hrjo_designation` varchar(140),
+`hrjo_department` varchar(140),
+`hrjo_description` varchar(140),
+`hrjo_currency` varchar(140),
+`hrjo_lower_range` decimal(21,9) not null default 0,
+`hrjo_upper_range` decimal(21,9) not null default 0,
+`hrjo_publish` int(1) not null default 0,
+`hrjo_publish_salary_range` int(1) not null default 0,
+`hrjo_route` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+`_seen` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-11 19:06:34,276 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_lower_range` decimal(21,9) not null default 0, MODIFY `hrjo_upper_range` decimal(21,9) not null default 0
+2023-09-11 19:08:31,310 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_lower_range` decimal(21,9) not null default 0, MODIFY `hrjo_upper_range` decimal(21,9) not null default 0
+2023-09-11 19:10:11,863 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_upper_range` decimal(21,9) not null default 0, MODIFY `hrjo_description` text, MODIFY `hrjo_lower_range` decimal(21,9) not null default 0
+2023-09-11 19:11:48,228 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_upper_range` decimal(21,9) not null default 0, MODIFY `hrjo_lower_range` decimal(21,9) not null default 0
+2023-09-11 19:13:09,806 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` ADD COLUMN `hrjo_job_application_route` varchar(140)
+2023-09-11 19:13:09,816 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_lower_range` decimal(21,9) not null default 0, MODIFY `hrjo_upper_range` decimal(21,9) not null default 0
+2023-09-11 19:13:31,340 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_upper_range` decimal(21,9) not null default 0, MODIFY `hrjo_lower_range` decimal(21,9) not null default 0
+2023-09-11 19:22:41,095 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_lower_range` decimal(21,9) not null default 0, MODIFY `hrjo_upper_range` decimal(21,9) not null default 0
+2023-09-12 09:35:18,551 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_lower_range` decimal(21,9) not null default 0, MODIFY `hrjo_upper_range` decimal(21,9) not null default 0
+2023-09-12 09:35:26,580 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_upper_range` decimal(21,9) not null default 0, MODIFY `hrjo_lower_range` decimal(21,9) not null default 0
+2023-09-12 09:36:02,037 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` ADD COLUMN `publish` int(1) not null default 0, ADD COLUMN `publish_salary_range` int(1) not null default 0, ADD COLUMN `route` varchar(140), ADD COLUMN `job_application_route` varchar(140)
+2023-09-12 09:36:02,048 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_upper_range` decimal(21,9) not null default 0, MODIFY `hrjo_lower_range` decimal(21,9) not null default 0
+2023-09-12 09:42:29,084 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBETA Job Opening` MODIFY `hrjo_lower_range` decimal(21,9) not null default 0, MODIFY `hrjo_upper_range` decimal(21,9) not null default 0
+2023-09-12 09:46:06,388 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0
+2023-09-12 09:46:22,440 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `custom_kênh_tuyển_dụng` varchar(140)
+2023-09-12 09:47:30,156 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `time_to_fill` decimal(21,9)
+2023-09-12 09:52:20,570 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` ADD COLUMN `custom_ngày_thi_tuyển` date
+2023-09-12 09:52:20,581 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-12 09:52:20,691 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `time_to_fill` decimal(21,9), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `status` varchar(140)
+2023-09-12 09:52:59,300 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` ADD COLUMN `custom_ngày_phỏng_vấn` date
+2023-09-12 09:52:59,312 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `status` varchar(140), MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9)
+2023-09-12 09:52:59,398 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9)
+2023-09-12 11:53:30,986 WARNING database DDL Query made to DB:
+create table `tabHR-INTERVIEW-SKILLSET 1` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill` varchar(140),
+`rating` decimal(3,2),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 11:57:24,351 WARNING database DDL Query made to DB:
+create table `tabHR-Skill-Appearance` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill_name` varchar(140) unique,
+`description` text,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 11:59:00,582 WARNING database DDL Query made to DB:
+create table `tabHR-Skill-Professional Qualifications` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill_name` varchar(140) unique,
+`description` text,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 12:00:13,921 WARNING database DDL Query made to DB:
+create table `tabHR-Skill-Other Skills` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill_name` varchar(140) unique,
+`description` text,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 12:04:30,616 WARNING database DDL Query made to DB:
+create table `tabHR-Skill-Motivation and Commitment` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill_name` varchar(140) unique,
+`description` text,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 12:05:39,075 WARNING database DDL Query made to DB:
+create table `tabHR-Skill-Management` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill_name` varchar(140) unique,
+`description` text,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 12:07:48,686 WARNING database DDL Query made to DB:
+ALTER TABLE `tabHR-INTERVIEW-SKILLSET 1` MODIFY `rating` decimal(3,2)
+2023-09-12 12:09:32,202 WARNING database DDL Query made to DB:
+alter table `tabHR-Skill-Appearance` add column parent varchar(140)
+2023-09-12 12:09:32,216 WARNING database DDL Query made to DB:
+alter table `tabHR-Skill-Appearance` add column parenttype varchar(140)
+2023-09-12 12:09:32,228 WARNING database DDL Query made to DB:
+alter table `tabHR-Skill-Appearance` add column parentfield varchar(140)
+2023-09-12 12:10:10,741 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:10:10,823 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:12:07,630 WARNING database DDL Query made to DB:
+create table `tabHR-Skillset-Appearance` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill_name` varchar(140) unique,
+`description` text,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 12:15:34,782 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` ADD COLUMN `custom_ngoại_hìnhphong_thái_thể_hiện` varchar(140)
+2023-09-12 12:15:34,793 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:15:34,866 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:16:44,958 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:16:45,032 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:17:50,351 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:19:25,061 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:28:39,162 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` ADD COLUMN `custom_ngoại_hìnhphong_thái_thể_hiện` varchar(140)
+2023-09-12 12:28:39,174 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:28:39,247 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:28:52,851 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:31:33,476 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:32:38,644 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:32:38,858 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:32:48,321 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:33:49,763 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:36:21,455 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:45:16,640 WARNING database DDL Query made to DB:
+create table `tabHR-Skillset-Management` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill_name` varchar(140) unique,
+`description` text,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 12:45:41,560 WARNING database DDL Query made to DB:
+create table `tabHR-Skillset-Motivation and Commitment` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill_name` varchar(140) unique,
+`description` text,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 12:46:00,261 WARNING database DDL Query made to DB:
+create table `tabHR-Skillset-Other Skills` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill_name` varchar(140) unique,
+`description` text,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 12:48:42,600 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:48:42,703 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` ADD COLUMN `custom_điểm_mạnh` varchar(140)
+2023-09-12 12:48:42,714 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:48:42,832 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:48:42,935 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` ADD COLUMN `custom_điểm_yếu` varchar(140)
+2023-09-12 12:48:42,946 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:48:43,047 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:48:43,160 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:48:43,266 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:48:43,375 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:48:43,448 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:50:32,458 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-12 12:58:33,553 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:58:33,664 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:58:33,773 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:58:33,880 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:58:33,989 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` ADD COLUMN `custom_điểm_mạnh` varchar(140)
+2023-09-12 12:58:34,001 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:58:34,115 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:58:34,259 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` ADD COLUMN `custom_điểm_yếu` varchar(140)
+2023-09-12 12:58:34,271 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:58:34,385 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:58:34,494 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:58:34,576 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 12:58:59,568 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 13:00:47,832 WARNING database DDL Query made to DB:
+create table `tabSkill Assessment 2` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill` varchar(140),
+`rating` decimal(3,2),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 13:01:15,116 WARNING database DDL Query made to DB:
+create table `tabSkill Assessment 3` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill` varchar(140),
+`rating` decimal(3,2),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 13:01:33,201 WARNING database DDL Query made to DB:
+create table `tabSkill Assessment 4` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill` varchar(140),
+`rating` decimal(3,2),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 13:01:48,734 WARNING database DDL Query made to DB:
+create table `tabSkill Assessment 5` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`skill` varchar(140),
+`rating` decimal(3,2),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-12 13:02:31,652 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 13:06:16,234 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 2` MODIFY `rating` decimal(3,2)
+2023-09-12 13:06:49,312 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 13:07:20,487 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 2` MODIFY `rating` decimal(3,2)
+2023-09-12 13:08:08,952 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 13:13:21,397 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 13:14:32,327 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 2` MODIFY `rating` decimal(3,2)
+2023-09-12 13:14:53,599 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 5` MODIFY `rating` decimal(3,2)
+2023-09-12 13:14:59,699 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 4` MODIFY `rating` decimal(3,2)
+2023-09-12 13:15:08,792 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 3` MODIFY `rating` decimal(3,2)
+2023-09-12 13:18:53,798 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 2` MODIFY `rating` decimal(3,2)
+2023-09-12 13:19:40,336 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 2` MODIFY `rating` decimal(3,2)
+2023-09-12 13:19:52,016 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 2` MODIFY `rating` decimal(3,2)
+2023-09-12 13:20:14,919 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 2` MODIFY `rating` decimal(3,2)
+2023-09-12 13:23:01,312 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 3` MODIFY `rating` decimal(3,2)
+2023-09-12 13:23:19,723 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 4` MODIFY `rating` decimal(3,2)
+2023-09-12 13:23:38,869 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSkill Assessment 5` MODIFY `rating` decimal(3,2)
+2023-09-12 13:24:38,107 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 13:27:06,361 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 13:28:12,863 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 13:28:12,964 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 13:34:12,534 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-12 14:47:07,457 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9)
+2023-09-12 14:47:07,565 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9), MODIFY `status` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0
+2023-09-12 14:52:14,514 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140), MODIFY `time_to_fill` decimal(21,9), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `custom_kênh_tuyển_dụng` varchar(140)
+2023-09-12 14:52:22,163 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `status` varchar(140)
+2023-09-12 14:53:18,098 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `time_to_fill` decimal(21,9), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140)
+2023-09-12 14:53:18,204 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0, MODIFY `time_to_fill` decimal(21,9)
+2023-09-13 09:04:54,320 WARNING database DDL Query made to DB:
+create table `tabmuc_luong` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`muc` varchar(140),
+`description` text,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-13 09:05:35,873 WARNING database DDL Query made to DB:
+RENAME TABLE `tabmuc_luong` TO `tabSalary level`
+2023-09-13 09:07:51,851 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary level` ADD UNIQUE INDEX IF NOT EXISTS muc (`muc`)
+2023-09-13 09:12:33,890 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_mức_lương` varchar(140)
+2023-09-13 09:12:33,903 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 09:12:34,040 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 09:13:57,628 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Grade` ADD COLUMN `custom_mô_tả` text
+2023-09-13 09:13:57,639 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Grade` MODIFY `default_base_pay` decimal(21,9) not null default 0
+2023-09-13 09:13:57,743 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Grade` MODIFY `default_base_pay` decimal(21,9) not null default 0
+2023-09-13 09:27:40,963 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` ADD COLUMN `custom_grade` varchar(140)
+2023-09-13 09:27:40,974 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` MODIFY `total_working_days` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `total_deduction` decimal(21,9) not null default 0, MODIFY `total_income_tax` decimal(21,9) not null default 0, MODIFY `base_net_pay` decimal(21,9) not null default 0, MODIFY `base_month_to_date` decimal(21,9) not null default 0, MODIFY `base_hour_rate` decimal(21,9) not null default 0, MODIFY `gross_pay` decimal(21,9) not null default 0, MODIFY `month_to_date` decimal(21,9) not null default 0, MODIFY `absent_days` decimal(21,9) not null default 0, MODIFY `base_gross_pay` decimal(21,9) not null default 0, MODIFY `hour_rate` decimal(21,9) not null default 0, MODIFY `income_from_other_sources` decimal(21,9) not null default 0, MODIFY `base_year_to_date` decimal(21,9) not null default 0, MODIFY `non_taxable_earnings` decimal(21,9) not null default 0, MODIFY `base_total_deduction` decimal(21,9) not null default 0, MODIFY `tax_exemption_declaration` decimal(21,9) not null default 0, MODIFY `annual_taxable_amount` decimal(21,9) not null default 0, MODIFY `total_earnings` decimal(21,9) not null default 0, MODIFY `leave_without_pay` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `base_gross_year_to_date` decimal(21,9) not null default 0, MODIFY `standard_tax_exemption_amount` decimal(21,9) not null default 0, MODIFY `payment_days` decimal(21,9) not null default 0, MODIFY `future_income_tax_deductions` decimal(21,9) not null default 0, MODIFY `current_month_income_tax` decimal(21,9) not null default 0, MODIFY `year_to_date` decimal(21,9) not null default 0, MODIFY `gross_year_to_date` decimal(21,9) not null default 0, MODIFY `income_tax_deducted_till_date` decimal(21,9) not null default 0, MODIFY `total_working_hours` decimal(21,9) not null default 0, MODIFY `net_pay` decimal(21,9) not null default 0, MODIFY `deductions_before_tax_calculation` decimal(21,9) not null default 0, MODIFY `unmarked_days` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0
+2023-09-13 09:27:41,132 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` MODIFY `standard_tax_exemption_amount` decimal(21,9) not null default 0, MODIFY `absent_days` decimal(21,9) not null default 0, MODIFY `gross_year_to_date` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_month_to_date` decimal(21,9) not null default 0, MODIFY `hour_rate` decimal(21,9) not null default 0, MODIFY `total_earnings` decimal(21,9) not null default 0, MODIFY `base_net_pay` decimal(21,9) not null default 0, MODIFY `total_income_tax` decimal(21,9) not null default 0, MODIFY `current_month_income_tax` decimal(21,9) not null default 0, MODIFY `year_to_date` decimal(21,9) not null default 0, MODIFY `annual_taxable_amount` decimal(21,9) not null default 0, MODIFY `tax_exemption_declaration` decimal(21,9) not null default 0, MODIFY `total_deduction` decimal(21,9) not null default 0, MODIFY `base_gross_year_to_date` decimal(21,9) not null default 0, MODIFY `payment_days` decimal(21,9) not null default 0, MODIFY `base_hour_rate` decimal(21,9) not null default 0, MODIFY `base_year_to_date` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `leave_without_pay` decimal(21,9) not null default 0, MODIFY `month_to_date` decimal(21,9) not null default 0, MODIFY `income_tax_deducted_till_date` decimal(21,9) not null default 0, MODIFY `net_pay` decimal(21,9) not null default 0, MODIFY `base_total_deduction` decimal(21,9) not null default 0, MODIFY `base_gross_pay` decimal(21,9) not null default 0, MODIFY `non_taxable_earnings` decimal(21,9) not null default 0, MODIFY `unmarked_days` decimal(21,9) not null default 0, MODIFY `deductions_before_tax_calculation` decimal(21,9) not null default 0, MODIFY `total_working_days` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `income_from_other_sources` decimal(21,9) not null default 0, MODIFY `total_working_hours` decimal(21,9) not null default 0, MODIFY `future_income_tax_deductions` decimal(21,9) not null default 0, MODIFY `gross_pay` decimal(21,9) not null default 0
+2023-09-13 09:29:53,830 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` ADD COLUMN `custom_mức` varchar(140)
+2023-09-13 09:29:53,843 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` MODIFY `annual_taxable_amount` decimal(21,9) not null default 0, MODIFY `tax_exemption_declaration` decimal(21,9) not null default 0, MODIFY `leave_without_pay` decimal(21,9) not null default 0, MODIFY `net_pay` decimal(21,9) not null default 0, MODIFY `total_earnings` decimal(21,9) not null default 0, MODIFY `total_deduction` decimal(21,9) not null default 0, MODIFY `absent_days` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `total_income_tax` decimal(21,9) not null default 0, MODIFY `current_month_income_tax` decimal(21,9) not null default 0, MODIFY `unmarked_days` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `non_taxable_earnings` decimal(21,9) not null default 0, MODIFY `total_working_hours` decimal(21,9) not null default 0, MODIFY `base_total_deduction` decimal(21,9) not null default 0, MODIFY `month_to_date` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `payment_days` decimal(21,9) not null default 0, MODIFY `base_year_to_date` decimal(21,9) not null default 0, MODIFY `hour_rate` decimal(21,9) not null default 0, MODIFY `year_to_date` decimal(21,9) not null default 0, MODIFY `total_working_days` decimal(21,9) not null default 0, MODIFY `income_from_other_sources` decimal(21,9) not null default 0, MODIFY `standard_tax_exemption_amount` decimal(21,9) not null default 0, MODIFY `base_month_to_date` decimal(21,9) not null default 0, MODIFY `base_gross_year_to_date` decimal(21,9) not null default 0, MODIFY `base_net_pay` decimal(21,9) not null default 0, MODIFY `income_tax_deducted_till_date` decimal(21,9) not null default 0, MODIFY `base_gross_pay` decimal(21,9) not null default 0, MODIFY `deductions_before_tax_calculation` decimal(21,9) not null default 0, MODIFY `gross_pay` decimal(21,9) not null default 0, MODIFY `future_income_tax_deductions` decimal(21,9) not null default 0, MODIFY `base_hour_rate` decimal(21,9) not null default 0, MODIFY `gross_year_to_date` decimal(21,9) not null default 0
+2023-09-13 09:29:53,959 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` MODIFY `gross_pay` decimal(21,9) not null default 0, MODIFY `hour_rate` decimal(21,9) not null default 0, MODIFY `base_hour_rate` decimal(21,9) not null default 0, MODIFY `absent_days` decimal(21,9) not null default 0, MODIFY `gross_year_to_date` decimal(21,9) not null default 0, MODIFY `base_net_pay` decimal(21,9) not null default 0, MODIFY `base_total_deduction` decimal(21,9) not null default 0, MODIFY `base_gross_pay` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `income_from_other_sources` decimal(21,9) not null default 0, MODIFY `future_income_tax_deductions` decimal(21,9) not null default 0, MODIFY `total_working_days` decimal(21,9) not null default 0, MODIFY `leave_without_pay` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `deductions_before_tax_calculation` decimal(21,9) not null default 0, MODIFY `income_tax_deducted_till_date` decimal(21,9) not null default 0, MODIFY `base_year_to_date` decimal(21,9) not null default 0, MODIFY `net_pay` decimal(21,9) not null default 0, MODIFY `total_earnings` decimal(21,9) not null default 0, MODIFY `year_to_date` decimal(21,9) not null default 0, MODIFY `standard_tax_exemption_amount` decimal(21,9) not null default 0, MODIFY `current_month_income_tax` decimal(21,9) not null default 0, MODIFY `unmarked_days` decimal(21,9) not null default 0, MODIFY `base_gross_year_to_date` decimal(21,9) not null default 0, MODIFY `payment_days` decimal(21,9) not null default 0, MODIFY `month_to_date` decimal(21,9) not null default 0, MODIFY `annual_taxable_amount` decimal(21,9) not null default 0, MODIFY `total_deduction` decimal(21,9) not null default 0, MODIFY `total_working_hours` decimal(21,9) not null default 0, MODIFY `non_taxable_earnings` decimal(21,9) not null default 0, MODIFY `total_income_tax` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `base_month_to_date` decimal(21,9) not null default 0, MODIFY `tax_exemption_declaration` decimal(21,9) not null default 0
+2023-09-13 09:30:46,151 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` MODIFY `income_tax_deducted_till_date` decimal(21,9) not null default 0, MODIFY `gross_pay` decimal(21,9) not null default 0, MODIFY `annual_taxable_amount` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `total_deduction` decimal(21,9) not null default 0, MODIFY `net_pay` decimal(21,9) not null default 0, MODIFY `payment_days` decimal(21,9) not null default 0, MODIFY `standard_tax_exemption_amount` decimal(21,9) not null default 0, MODIFY `unmarked_days` decimal(21,9) not null default 0, MODIFY `base_total_deduction` decimal(21,9) not null default 0, MODIFY `base_gross_year_to_date` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `tax_exemption_declaration` decimal(21,9) not null default 0, MODIFY `gross_year_to_date` decimal(21,9) not null default 0, MODIFY `base_hour_rate` decimal(21,9) not null default 0, MODIFY `base_gross_pay` decimal(21,9) not null default 0, MODIFY `base_month_to_date` decimal(21,9) not null default 0, MODIFY `income_from_other_sources` decimal(21,9) not null default 0, MODIFY `base_net_pay` decimal(21,9) not null default 0, MODIFY `month_to_date` decimal(21,9) not null default 0, MODIFY `deductions_before_tax_calculation` decimal(21,9) not null default 0, MODIFY `hour_rate` decimal(21,9) not null default 0, MODIFY `current_month_income_tax` decimal(21,9) not null default 0, MODIFY `year_to_date` decimal(21,9) not null default 0, MODIFY `total_earnings` decimal(21,9) not null default 0, MODIFY `leave_without_pay` decimal(21,9) not null default 0, MODIFY `base_year_to_date` decimal(21,9) not null default 0, MODIFY `absent_days` decimal(21,9) not null default 0, MODIFY `future_income_tax_deductions` decimal(21,9) not null default 0, MODIFY `total_working_days` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `total_income_tax` decimal(21,9) not null default 0, MODIFY `total_working_hours` decimal(21,9) not null default 0, MODIFY `non_taxable_earnings` decimal(21,9) not null default 0
+2023-09-13 12:04:15,822 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Opening` MODIFY `upper_range` decimal(21,9) not null default 0, MODIFY `lower_range` decimal(21,9) not null default 0
+2023-09-13 12:04:15,917 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Opening` MODIFY `lower_range` decimal(21,9) not null default 0, MODIFY `upper_range` decimal(21,9) not null default 0
+2023-09-13 14:04:23,943 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_thu_nhập_đóng_bh` varchar(140)
+2023-09-13 14:04:23,959 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:04:24,120 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:04:42,029 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:05:13,240 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:05:45,716 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:06:29,250 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:06:41,856 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:07:25,377 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:07:49,044 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:08:20,759 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:10:09,841 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_mức_đóng_bh` varchar(140)
+2023-09-13 14:10:09,852 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:10:09,983 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:10:12,399 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:11:55,641 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:15:25,566 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_thu_nhập_tính_bh` int(11) not null default 0
+2023-09-13 14:15:25,577 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:15:25,711 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 14:27:43,089 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-13 17:03:35,593 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` ADD COLUMN `custom_cv_đính_kèm` varchar(140)
+2023-09-13 17:03:35,605 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `expected_average_rating` decimal(3,2), MODIFY `average_rating` decimal(3,2)
+2023-09-13 17:03:35,702 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `expected_average_rating` decimal(3,2), MODIFY `average_rating` decimal(3,2)
+2023-09-13 17:04:09,143 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `average_rating` decimal(3,2), MODIFY `expected_average_rating` decimal(3,2)
+2023-09-13 17:08:35,068 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `expected_average_rating` decimal(3,2), MODIFY `average_rating` decimal(3,2)
+2023-09-13 17:13:54,978 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` ADD COLUMN `custom_cv` text
+2023-09-13 17:13:54,990 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `expected_average_rating` decimal(3,2), MODIFY `average_rating` decimal(3,2)
+2023-09-13 17:13:55,072 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `average_rating` decimal(3,2), MODIFY `expected_average_rating` decimal(3,2)
+2023-09-13 17:19:15,824 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `average_rating` decimal(3,2), MODIFY `expected_average_rating` decimal(3,2)
+2023-09-13 17:22:38,282 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `average_rating` decimal(3,2), MODIFY `expected_average_rating` decimal(3,2)
+2023-09-13 18:04:56,013 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` ADD COLUMN `workflow_state` varchar(140)
+2023-09-13 18:04:56,024 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-13 18:05:51,447 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-13 18:09:39,333 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-13 18:18:32,701 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-14 08:57:55,712 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `average_rating` decimal(3,2), MODIFY `expected_average_rating` decimal(3,2)
+2023-09-14 08:59:53,824 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `average_rating` decimal(3,2), MODIFY `expected_average_rating` decimal(3,2)
+2023-09-14 09:00:40,450 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `expected_average_rating` decimal(3,2), MODIFY `average_rating` decimal(3,2)
+2023-09-14 09:05:39,425 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `expected_average_rating` decimal(3,2), MODIFY `average_rating` decimal(3,2)
+2023-09-14 09:07:14,679 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview` MODIFY `average_rating` decimal(3,2), MODIFY `expected_average_rating` decimal(3,2)
+2023-09-14 09:12:06,884 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Round` MODIFY `expected_average_rating` decimal(3,2)
+2023-09-14 09:14:30,544 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-14 09:17:02,605 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-14 09:17:10,607 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-14 09:23:55,653 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInterview Feedback` MODIFY `average_rating` decimal(3,2)
+2023-09-14 09:46:25,286 WARNING database DDL Query made to DB:
+ALTER TABLE `tabJob Requisition` MODIFY `time_to_fill` decimal(21,9), MODIFY `custom_kênh_tuyển_dụng` varchar(140), MODIFY `expected_compensation` decimal(21,9) not null default 0, MODIFY `status` varchar(140), MODIFY `custom_chi_phí_tuyển_dụng_nếu_có` decimal(21,9) not null default 0
+2023-09-14 13:54:52,150 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2023-09-15 12:38:17,266 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` ADD COLUMN `custom_hqcv` decimal(21,9) not null default 0
+2023-09-15 12:38:17,277 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` MODIFY `unmarked_days` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `net_pay` decimal(21,9) not null default 0, MODIFY `deductions_before_tax_calculation` decimal(21,9) not null default 0, MODIFY `future_income_tax_deductions` decimal(21,9) not null default 0, MODIFY `total_working_hours` decimal(21,9) not null default 0, MODIFY `month_to_date` decimal(21,9) not null default 0, MODIFY `total_earnings` decimal(21,9) not null default 0, MODIFY `tax_exemption_declaration` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_hour_rate` decimal(21,9) not null default 0, MODIFY `year_to_date` decimal(21,9) not null default 0, MODIFY `standard_tax_exemption_amount` decimal(21,9) not null default 0, MODIFY `base_total_deduction` decimal(21,9) not null default 0, MODIFY `income_tax_deducted_till_date` decimal(21,9) not null default 0, MODIFY `total_deduction` decimal(21,9) not null default 0, MODIFY `total_working_days` decimal(21,9) not null default 0, MODIFY `total_income_tax` decimal(21,9) not null default 0, MODIFY `hour_rate` decimal(21,9) not null default 0, MODIFY `gross_pay` decimal(21,9) not null default 0, MODIFY `current_month_income_tax` decimal(21,9) not null default 0, MODIFY `gross_year_to_date` decimal(21,9) not null default 0, MODIFY `base_net_pay` decimal(21,9) not null default 0, MODIFY `annual_taxable_amount` decimal(21,9) not null default 0, MODIFY `leave_without_pay` decimal(21,9) not null default 0, MODIFY `absent_days` decimal(21,9) not null default 0, MODIFY `base_gross_year_to_date` decimal(21,9) not null default 0, MODIFY `non_taxable_earnings` decimal(21,9) not null default 0, MODIFY `income_from_other_sources` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `base_gross_pay` decimal(21,9) not null default 0, MODIFY `base_year_to_date` decimal(21,9) not null default 0, MODIFY `payment_days` decimal(21,9) not null default 0, MODIFY `base_month_to_date` decimal(21,9) not null default 0
+2023-09-15 12:38:17,436 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` MODIFY `base_net_pay` decimal(21,9) not null default 0, MODIFY `non_taxable_earnings` decimal(21,9) not null default 0, MODIFY `deductions_before_tax_calculation` decimal(21,9) not null default 0, MODIFY `gross_pay` decimal(21,9) not null default 0, MODIFY `standard_tax_exemption_amount` decimal(21,9) not null default 0, MODIFY `custom_hqcv` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `hour_rate` decimal(21,9) not null default 0, MODIFY `total_income_tax` decimal(21,9) not null default 0, MODIFY `total_working_hours` decimal(21,9) not null default 0, MODIFY `annual_taxable_amount` decimal(21,9) not null default 0, MODIFY `income_tax_deducted_till_date` decimal(21,9) not null default 0, MODIFY `unmarked_days` decimal(21,9) not null default 0, MODIFY `base_hour_rate` decimal(21,9) not null default 0, MODIFY `base_total_deduction` decimal(21,9) not null default 0, MODIFY `leave_without_pay` decimal(21,9) not null default 0, MODIFY `tax_exemption_declaration` decimal(21,9) not null default 0, MODIFY `base_gross_pay` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `absent_days` decimal(21,9) not null default 0, MODIFY `total_earnings` decimal(21,9) not null default 0, MODIFY `total_working_days` decimal(21,9) not null default 0, MODIFY `base_year_to_date` decimal(21,9) not null default 0, MODIFY `base_month_to_date` decimal(21,9) not null default 0, MODIFY `month_to_date` decimal(21,9) not null default 0, MODIFY `payment_days` decimal(21,9) not null default 0, MODIFY `current_month_income_tax` decimal(21,9) not null default 0, MODIFY `year_to_date` decimal(21,9) not null default 0, MODIFY `net_pay` decimal(21,9) not null default 0, MODIFY `total_deduction` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `future_income_tax_deductions` decimal(21,9) not null default 0, MODIFY `gross_year_to_date` decimal(21,9) not null default 0, MODIFY `income_from_other_sources` decimal(21,9) not null default 0, MODIFY `base_gross_year_to_date` decimal(21,9) not null default 0
+2023-09-15 13:48:57,633 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` ADD COLUMN `custom_mã_nhân_viên` varchar(140)
+2023-09-15 13:48:57,645 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` MODIFY `current_month_income_tax` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_month_to_date` decimal(21,9) not null default 0, MODIFY `month_to_date` decimal(21,9) not null default 0, MODIFY `hour_rate` decimal(21,9) not null default 0, MODIFY `base_gross_pay` decimal(21,9) not null default 0, MODIFY `gross_pay` decimal(21,9) not null default 0, MODIFY `total_working_days` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `base_hour_rate` decimal(21,9) not null default 0, MODIFY `tax_exemption_declaration` decimal(21,9) not null default 0, MODIFY `standard_tax_exemption_amount` decimal(21,9) not null default 0, MODIFY `gross_year_to_date` decimal(21,9) not null default 0, MODIFY `income_from_other_sources` decimal(21,9) not null default 0, MODIFY `income_tax_deducted_till_date` decimal(21,9) not null default 0, MODIFY `total_deduction` decimal(21,9) not null default 0, MODIFY `total_working_hours` decimal(21,9) not null default 0, MODIFY `total_income_tax` decimal(21,9) not null default 0, MODIFY `payment_days` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `future_income_tax_deductions` decimal(21,9) not null default 0, MODIFY `base_year_to_date` decimal(21,9) not null default 0, MODIFY `base_gross_year_to_date` decimal(21,9) not null default 0, MODIFY `leave_without_pay` decimal(21,9) not null default 0, MODIFY `deductions_before_tax_calculation` decimal(21,9) not null default 0, MODIFY `unmarked_days` decimal(21,9) not null default 0, MODIFY `non_taxable_earnings` decimal(21,9) not null default 0, MODIFY `total_earnings` decimal(21,9) not null default 0, MODIFY `base_total_deduction` decimal(21,9) not null default 0, MODIFY `base_net_pay` decimal(21,9) not null default 0, MODIFY `year_to_date` decimal(21,9) not null default 0, MODIFY `annual_taxable_amount` decimal(21,9) not null default 0, MODIFY `absent_days` decimal(21,9) not null default 0, MODIFY `custom_hqcv` decimal(21,9) not null default 0, MODIFY `net_pay` decimal(21,9) not null default 0
+2023-09-15 13:48:57,775 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` MODIFY `base_net_pay` decimal(21,9) not null default 0, MODIFY `gross_year_to_date` decimal(21,9) not null default 0, MODIFY `deductions_before_tax_calculation` decimal(21,9) not null default 0, MODIFY `gross_pay` decimal(21,9) not null default 0, MODIFY `base_gross_year_to_date` decimal(21,9) not null default 0, MODIFY `year_to_date` decimal(21,9) not null default 0, MODIFY `standard_tax_exemption_amount` decimal(21,9) not null default 0, MODIFY `payment_days` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `income_tax_deducted_till_date` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `future_income_tax_deductions` decimal(21,9) not null default 0, MODIFY `income_from_other_sources` decimal(21,9) not null default 0, MODIFY `tax_exemption_declaration` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `month_to_date` decimal(21,9) not null default 0, MODIFY `annual_taxable_amount` decimal(21,9) not null default 0, MODIFY `total_income_tax` decimal(21,9) not null default 0, MODIFY `base_total_deduction` decimal(21,9) not null default 0, MODIFY `net_pay` decimal(21,9) not null default 0, MODIFY `base_hour_rate` decimal(21,9) not null default 0, MODIFY `hour_rate` decimal(21,9) not null default 0, MODIFY `base_year_to_date` decimal(21,9) not null default 0, MODIFY `total_working_hours` decimal(21,9) not null default 0, MODIFY `non_taxable_earnings` decimal(21,9) not null default 0, MODIFY `total_deduction` decimal(21,9) not null default 0, MODIFY `custom_hqcv` decimal(21,9) not null default 0, MODIFY `total_earnings` decimal(21,9) not null default 0, MODIFY `leave_without_pay` decimal(21,9) not null default 0, MODIFY `absent_days` decimal(21,9) not null default 0, MODIFY `base_gross_pay` decimal(21,9) not null default 0, MODIFY `base_month_to_date` decimal(21,9) not null default 0, MODIFY `total_working_days` decimal(21,9) not null default 0, MODIFY `current_month_income_tax` decimal(21,9) not null default 0, MODIFY `unmarked_days` decimal(21,9) not null default 0
+2023-09-15 13:49:32,970 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Slip` MODIFY `base_hour_rate` decimal(21,9) not null default 0, MODIFY `total_deduction` decimal(21,9) not null default 0, MODIFY `income_from_other_sources` decimal(21,9) not null default 0, MODIFY `base_gross_year_to_date` decimal(21,9) not null default 0, MODIFY `income_tax_deducted_till_date` decimal(21,9) not null default 0, MODIFY `annual_taxable_amount` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `deductions_before_tax_calculation` decimal(21,9) not null default 0, MODIFY `non_taxable_earnings` decimal(21,9) not null default 0, MODIFY `current_month_income_tax` decimal(21,9) not null default 0, MODIFY `standard_tax_exemption_amount` decimal(21,9) not null default 0, MODIFY `base_total_deduction` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `hour_rate` decimal(21,9) not null default 0, MODIFY `net_pay` decimal(21,9) not null default 0, MODIFY `total_income_tax` decimal(21,9) not null default 0, MODIFY `base_month_to_date` decimal(21,9) not null default 0, MODIFY `payment_days` decimal(21,9) not null default 0, MODIFY `absent_days` decimal(21,9) not null default 0, MODIFY `base_year_to_date` decimal(21,9) not null default 0, MODIFY `future_income_tax_deductions` decimal(21,9) not null default 0, MODIFY `gross_pay` decimal(21,9) not null default 0, MODIFY `gross_year_to_date` decimal(21,9) not null default 0, MODIFY `total_working_hours` decimal(21,9) not null default 0, MODIFY `custom_hqcv` decimal(21,9) not null default 0, MODIFY `total_working_days` decimal(21,9) not null default 0, MODIFY `base_gross_pay` decimal(21,9) not null default 0, MODIFY `tax_exemption_declaration` decimal(21,9) not null default 0, MODIFY `leave_without_pay` decimal(21,9) not null default 0, MODIFY `total_earnings` decimal(21,9) not null default 0, MODIFY `month_to_date` decimal(21,9) not null default 0, MODIFY `base_net_pay` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `unmarked_days` decimal(21,9) not null default 0, MODIFY `year_to_date` decimal(21,9) not null default 0

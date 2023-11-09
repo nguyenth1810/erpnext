@@ -1,0 +1,11 @@
+2023-10-13 09:56:58.366 [info] [Info  - 9:56:58 AM] (1385324) Pylance language server 2023.10.20 (pyright 71ed1178) starting
+2023-10-13 09:56:58.373 [info] [Info  - 9:56:58 AM] (1385324) Server root directory: /home/erp/.vscode/extensions/ms-python.vscode-pylance-2023.10.20/dist
+2023-10-13 09:56:58.374 [info] [Info  - 9:56:58 AM] (1385324) Starting service instance "frappe-bench"
+2023-10-13 09:56:58.424 [info] [Info  - 9:56:58 AM] (1385324) Setting pythonPath for service "frappe-bench": "/home/erp/frappe-bench/env/bin/python"
+2023-10-13 09:56:58.424 [info] [Info  - 9:56:58 AM] (1385324) Setting environmentName for service "frappe-bench": "3.10.12 (env venv)"
+2023-10-13 09:56:58.428 [info] [Warn  - 9:56:58 AM] (1385324) stubPath /home/erp/frappe-bench/typings is not a valid directory.
+2023-10-13 09:56:58.459 [info] [Info  - 9:56:58 AM] (1385324) Assuming Python version 3.10
+2023-10-13 09:56:58.867 [info] [Info  - 9:56:58 AM] (1385324) Auto-excluding /home/erp/frappe-bench/env
+2023-10-13 09:56:59.052 [info] [Info  - 9:56:59 AM] (1385324) Found 5775 source files
+2023-10-13 14:41:14.948 [info] [Info  - 2:41:14 PM] (1385324) Found 5777 source files
+2023-10-13 14:52:42.607 [info] [Info  - 2:52:42 PM] (1385324) Found 5775 source files
